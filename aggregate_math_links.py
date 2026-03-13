@@ -8,12 +8,37 @@ import os
 import random
 import subprocess
 import json
+import urllib.request
+import urllib.error
 from datetime import datetime, timezone
 
 REPO_PATH = "/root/.openclaw/workspace/something"
 DATA_FILE = os.path.join(REPO_PATH, "links.json")
 INDEX_FILE = os.path.join(REPO_PATH, "page_index.json")
 LINKS_PER_PAGE = 50
+
+def validate_url(url, timeout=10):
+    """Check if a URL is still accessible."""
+    try:
+        req = urllib.request.Request(url, method='HEAD')
+        req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            return response.status == 200
+    except urllib.error.HTTPError as e:
+        # 403 Forbidden might still mean the page exists but blocks bots
+        return e.code == 403
+    except:
+        return False
+
+def filter_valid_links(links):
+    """Filter out broken links."""
+    valid = []
+    for link in links:
+        if validate_url(link["url"]):
+            valid.append(link)
+        else:
+            print(f"  ⚠️  Broken link removed: {link['title'][:50]}...")
+    return valid
 
 # Expanded curated links - hundreds of math resources
 CURATED_LINKS = [
@@ -511,8 +536,14 @@ def commit_and_push(message="Update math links"):
 
 def main():
     """Main function - creates new page with 50 links each run."""
-    # Load existing links
+    print("Loading existing links...")
     all_links = load_links()
+    
+    # Validate existing links periodically (every 10 runs approx)
+    if len(all_links) % 10 == 0 and all_links:
+        print(f"Validating {len(all_links)} existing links...")
+        all_links = filter_valid_links(all_links)
+        print(f"After validation: {len(all_links)} valid links")
     
     # Deduplicate existing links
     all_links = deduplicate_links(all_links)
@@ -520,6 +551,7 @@ def main():
     # Get URLs already in the collection
     existing_urls = {link["url"] for link in all_links}
     
+    print("Checking for new links...")
     # Select 50 new unique links
     new_links = select_new_links(existing_urls, LINKS_PER_PAGE)
     
@@ -527,10 +559,18 @@ def main():
         print("No new links available. Consider expanding the curated list.")
         return 0
     
-    print(f"Selected {len(new_links)} new links")
+    # Validate new links before adding
+    print(f"Validating {len(new_links)} new links...")
+    valid_new_links = filter_valid_links(new_links)
+    
+    if not valid_new_links:
+        print("All candidate links were broken. Need fresh sources.")
+        return 0
+    
+    print(f"Adding {len(valid_new_links)} valid new links")
     
     # Add to collection
-    all_links.extend(new_links)
+    all_links.extend(valid_new_links)
     
     # Save updated links
     save_links(all_links)
@@ -563,7 +603,7 @@ def main():
     print("Generated index.html")
     
     # Commit and push
-    if commit_and_push(f"Add page {total_pages} with {len(new_links)} new math links"):
+    if commit_and_push(f"Add page {total_pages} with {len(valid_new_links)} new math links"):
         print(f"Successfully pushed. Now at {total_pages} pages.")
     else:
         print("Git operation completed")
@@ -571,4 +611,15 @@ def main():
     return 0
 
 if __name__ == "__main__":
-    exit(main())
+    import sys
+    # Check for cleanup command
+    if len(sys.argv) > 1 and sys.argv[1] == "cleanup":
+        print("Running link cleanup...")
+        links = load_links()
+        print(f"Checking {len(links)} links...")
+        valid_links = filter_valid_links(links)
+        save_links(valid_links)
+        print(f"Cleanup complete. Removed {len(links) - len(valid_links)} broken links.")
+        print(f"Remaining: {len(valid_links)} valid links")
+    else:
+        exit(main())

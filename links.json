@@ -18,24 +18,6 @@
     "added_at": "2026-03-13T04:46:04.966506+00:00"
   },
   {
-    "id": "202603130435361181",
-    "title": "A Proof That Some Infinities Are Bigger Than Others",
-    "url": "https://www.quantamagazine.org/mathematicians-solve-long-standing-infinity-problem-20230713/",
-    "description": "Resolution of a 50-year-old problem about cardinal characteristics of the continuum.",
-    "high_level_tag": "Logic",
-    "low_level_tag": "set theory",
-    "added_at": "2026-03-13T04:35:36.466287+00:00"
-  },
-  {
-    "id": "202603130435367043",
-    "title": "The Geometry of Neural Networks",
-    "url": "https://www.quantamagazine.org/the-geometric-trick-that-makes-computers-learn-20230622/",
-    "description": "How algebraic topology helps understand why deep learning works.",
-    "high_level_tag": "Applied Math",
-    "low_level_tag": "machine learning",
-    "added_at": "2026-03-13T04:35:36.466233+00:00"
-  },
-  {
     "id": "202603130435369468",
     "title": "The Princeton Companion to Mathematics",
     "url": "https://www.amazon.com/Princeton-Companion-Mathematics-Timothy-Gowers/dp/0691118809",
@@ -106,15 +88,6 @@
     "high_level_tag": "General",
     "low_level_tag": "interactive",
     "added_at": "2026-03-13T04:21:34.977061+00:00"
-  },
-  {
-    "id": "202603130421348022",
-    "title": "Mathematicians Prove Tetris Is Hard",
-    "url": "https://www.quantamagazine.org/mathematicians-prove-tetris-is-hard-even-with-godlike-abilities-20231031/",
-    "description": "Even with perfect information, the classic game Tetris is computationally intractable.",
-    "high_level_tag": "Discrete Math",
-    "low_level_tag": "computational complexity",
-    "added_at": "2026-03-13T04:21:34.977056+00:00"
   },
   {
     "id": "202603130421346318",
@@ -207,15 +180,6 @@
     "added_at": "2026-03-13T04:21:34.976981+00:00"
   },
   {
-    "id": "202603130421349826",
-    "title": "The Mandelbrot Set Explorer",
-    "url": "https://mandelbrotset.net/",
-    "description": "Interactive exploration of the Mandelbrot set with high-resolution zooming.",
-    "high_level_tag": "Analysis",
-    "low_level_tag": "complex dynamics",
-    "added_at": "2026-03-13T04:21:34.976973+00:00"
-  },
-  {
     "id": "202603130421345381",
     "title": "Michael Penn - Real Analysis",
     "url": "https://www.youtube.com/@MichaelPennMath",
@@ -279,15 +243,6 @@
     "added_at": "2026-03-13T04:54:53.511979+00:00"
   },
   {
-    "id": "202603130454532433",
-    "title": "Mathematicians Solve the 'Happy Ending' Problem",
-    "url": "https://www.quantamagazine.org/mathematicians-solve-the-happy-ending-problem-20230821/",
-    "description": "New progress on a classic problem in combinatorial geometry about convex polygons.",
-    "high_level_tag": "Geometry",
-    "low_level_tag": "combinatorial geometry",
-    "added_at": "2026-03-13T04:54:53.511983+00:00"
-  },
-  {
     "id": "202603130454533007",
     "title": "SymPy Live",
     "url": "https://live.sympy.org/",
@@ -313,24 +268,6 @@
     "high_level_tag": "General",
     "low_level_tag": "education",
     "added_at": "2026-03-13T04:54:53.511998+00:00"
-  },
-  {
-    "id": "202603130454537024",
-    "title": "arXiv Mathematics",
-    "url": "https://arxiv.org/math",
-    "description": "Preprint server for mathematics papers. The latest research before it hits journals.",
-    "high_level_tag": "General",
-    "low_level_tag": "research",
-    "added_at": "2026-03-13T04:54:53.512018+00:00"
-  },
-  {
-    "id": "202603130454535570",
-    "title": "The Unsolvable Problem Behind Tap Dancing",
-    "url": "https://www.quantamagazine.org/the-unsolvable-problem-behind-tap-dancing-20230720/",
-    "description": "How the problem of finding optimal sequences relates to deep mathematical questions.",
-    "high_level_tag": "Applied Math",
-    "low_level_tag": "optimization",
-    "added_at": "2026-03-13T04:54:53.512023+00:00"
   },
   {
     "id": "202603130454537791",
@@ -387,24 +324,6 @@
     "added_at": "2026-03-13T04:54:53.512050+00:00"
   },
   {
-    "id": "202603130454536115",
-    "title": "Wolfram Alpha",
-    "url": "https://www.wolframalpha.com/",
-    "description": "Computational intelligence that answers factual queries using structured data.",
-    "high_level_tag": "General",
-    "low_level_tag": "computation",
-    "added_at": "2026-03-13T04:54:53.512056+00:00"
-  },
-  {
-    "id": "202603130454537993",
-    "title": "The Man Who Loved Only Numbers - Paul Hoffman",
-    "url": "https://www.amazon.com/Man-Who-Loved-Only-Numbers/dp/0786884061",
-    "description": "Biography of Paul Erdős, the legendary mathematician who lived for mathematics.",
-    "high_level_tag": "General",
-    "low_level_tag": "biography",
-    "added_at": "2026-03-13T04:54:53.512060+00:00"
-  },
-  {
     "id": "202603130454537048",
     "title": "Nash Equilibrium",
     "url": "https://www.youtube.com/watch?v=HG4jlZ9k6XA",
@@ -421,24 +340,6 @@
     "high_level_tag": "Geometry",
     "low_level_tag": "algebraic geometry",
     "added_at": "2026-03-13T04:54:53.512070+00:00"
-  },
-  {
-    "id": "202603130454536617",
-    "title": "Mathematicians Calculate How Randomness Creeps In",
-    "url": "https://www.quantamagazine.org/mathematicians-calculate-how-randomness-creeps-in-20230313/",
-    "description": "New results on how quickly randomness spreads in dynamical systems.",
-    "high_level_tag": "Probability",
-    "low_level_tag": "random processes",
-    "added_at": "2026-03-13T04:54:53.512074+00:00"
-  },
-  {
-    "id": "202603130454532582",
-    "title": "Gödel, Escher, Bach - Douglas Hofstadter",
-    "url": "https://www.amazon.com/Gödel-Escher-Bach-Eternal-Golden/dp/0465026567",
-    "description": "A profound exploration of consciousness, mathematics, art, and music through interwoven narratives.",
-    "high_level_tag": "Logic",
-    "low_level_tag": "consciousness",
-    "added_at": "2026-03-13T04:54:53.512078+00:00"
   },
   {
     "id": "202603130454538829",
@@ -495,24 +396,6 @@
     "added_at": "2026-03-13T04:54:53.512104+00:00"
   },
   {
-    "id": "202603130454539771",
-    "title": "Topology - James Munkres",
-    "url": "https://www.amazon.com/Topology-2nd-James-Munkres/dp/0131816292",
-    "description": "Standard undergraduate topology text covering point-set and algebraic topology.",
-    "high_level_tag": "Topology",
-    "low_level_tag": "general topology",
-    "added_at": "2026-03-13T04:54:53.512108+00:00"
-  },
-  {
-    "id": "202603130454539987",
-    "title": "What is Mathematics? - Courant and Robbins",
-    "url": "https://www.amazon.com/What-Mathematics-Elementary-Approach-Ideas/dp/0195105192",
-    "description": "Classic introduction to mathematical thinking covering number theory, geometry, topology, and calculus.",
-    "high_level_tag": "General",
-    "low_level_tag": "introduction",
-    "added_at": "2026-03-13T04:54:53.512112+00:00"
-  },
-  {
     "id": "202603130454532396",
     "title": "PatrickJMT",
     "url": "https://www.youtube.com/@patrickjmt",
@@ -520,24 +403,6 @@
     "high_level_tag": "General",
     "low_level_tag": "tutorials",
     "added_at": "2026-03-13T04:54:53.512116+00:00"
-  },
-  {
-    "id": "202603130454534061",
-    "title": "Encyclopedia of Mathematics",
-    "url": "https://encyclopediaofmath.org/",
-    "description": "Open-access encyclopedia with over 8,000 articles on mathematical topics.",
-    "high_level_tag": "General",
-    "low_level_tag": "reference",
-    "added_at": "2026-03-13T04:54:53.512120+00:00"
-  },
-  {
-    "id": "202603130454531688",
-    "title": "Love and Math - Edward Frenkel",
-    "url": "https://www.amazon.com/Love-Math-Heart-Hidden-Reality/dp/0465050743",
-    "description": "A mathematician's journey through the Langlands program and the beauty of modern mathematics.",
-    "high_level_tag": "General",
-    "low_level_tag": "autobiography",
-    "added_at": "2026-03-13T04:54:53.512127+00:00"
   },
   {
     "id": "202603130454533056",
@@ -558,15 +423,6 @@
     "added_at": "2026-03-13T04:54:53.512135+00:00"
   },
   {
-    "id": "202603130454534518",
-    "title": "American Mathematical Society",
-    "url": "https://www.ams.org/",
-    "description": "Professional organization promoting mathematical research and education.",
-    "high_level_tag": "General",
-    "low_level_tag": "organization",
-    "added_at": "2026-03-13T04:54:53.512140+00:00"
-  },
-  {
     "id": "202603130454535080",
     "title": "The MacTutor History of Mathematics",
     "url": "https://mathshistory.st-andrews.ac.uk/",
@@ -574,15 +430,6 @@
     "high_level_tag": "General",
     "low_level_tag": "history",
     "added_at": "2026-03-13T04:54:53.512145+00:00"
-  },
-  {
-    "id": "202603130454539347",
-    "title": "An Introduction to Elliptic Curve Cryptography",
-    "url": "https://www.ams.org/notices/199909/boneh.pdf",
-    "description": "Article explaining how elliptic curves secure modern communications.",
-    "high_level_tag": "Number Theory",
-    "low_level_tag": "cryptography",
-    "added_at": "2026-03-13T04:54:53.512151+00:00"
   },
   {
     "id": "202603130454538508",
@@ -628,15 +475,6 @@
     "high_level_tag": "Applied Math",
     "low_level_tag": "machine learning",
     "added_at": "2026-03-13T04:54:53.512172+00:00"
-  },
-  {
-    "id": "202603130454538444",
-    "title": "Flammable Maths",
-    "url": "https://www.youtube.com/@FlammableMaths",
-    "description": "Competition math problems and interesting mathematical puzzles.",
-    "high_level_tag": "General",
-    "low_level_tag": "problem solving",
-    "added_at": "2026-03-13T04:54:53.512176+00:00"
   },
   {
     "id": "202603130456186985",
@@ -729,15 +567,6 @@
     "added_at": "2026-03-13T04:56:18.046366+00:00"
   },
   {
-    "id": "202603130456187058",
-    "title": "Introduction to Differential Geometry",
-    "url": "https://www.maths.ed.ac.uk/~v1ranick/papers/diffgeombook.pdf",
-    "description": "Free comprehensive textbook on curves and surfaces in 3D space.",
-    "high_level_tag": "Geometry",
-    "low_level_tag": "differential geometry",
-    "added_at": "2026-03-13T04:56:18.046370+00:00"
-  },
-  {
     "id": "202603130456182611",
     "title": "The Pigeonhole Principle",
     "url": "https://brilliant.org/wiki/pigeonhole-principle/",
@@ -810,15 +639,6 @@
     "added_at": "2026-03-13T04:56:18.046407+00:00"
   },
   {
-    "id": "202603130456181737",
-    "title": "Introduction to Knot Theory",
-    "url": "https://www.math.ucla.edu/~radko/191.1.05w/knots.pdf",
-    "description": "Free notes on the mathematics of knots and their invariants.",
-    "high_level_tag": "Topology",
-    "low_level_tag": "knot theory",
-    "added_at": "2026-03-13T04:56:18.046412+00:00"
-  },
-  {
     "id": "202603130456184978",
     "title": "The Law of Large Numbers",
     "url": "https://www.youtube.com/watch?v=M8xeSh4vD2E",
@@ -864,15 +684,6 @@
     "added_at": "2026-03-13T04:56:18.046435+00:00"
   },
   {
-    "id": "202603130456187634",
-    "title": "The Mathematics of Machine Learning",
-    "url": "https://towardsdatascience.com/mathematics-of-machine-learning-3e5855d70f1e",
-    "description": "Comprehensive guide to the mathematical foundations of ML algorithms.",
-    "high_level_tag": "Applied Math",
-    "low_level_tag": "machine learning",
-    "added_at": "2026-03-13T04:56:18.046439+00:00"
-  },
-  {
     "id": "202603130456183568",
     "title": "The ABC Conjecture",
     "url": "https://www.youtube.com/watch?v=HI7eKI01aPo",
@@ -891,15 +702,6 @@
     "added_at": "2026-03-13T04:56:18.046448+00:00"
   },
   {
-    "id": "202603130456182011",
-    "title": "Bayesian Statistics Explained",
-    "url": "https://towardsdatascience.com/bayesian-statistics-explained-to-beginners-7089027a3e1",
-    "description": "Beginner-friendly explanation of Bayesian inference and its applications.",
-    "high_level_tag": "Probability",
-    "low_level_tag": "bayesian statistics",
-    "added_at": "2026-03-13T04:56:18.046452+00:00"
-  },
-  {
     "id": "202603130456185359",
     "title": "The Collatz Conjecture",
     "url": "https://www.youtube.com/watch?v=094y1Z2wpJg",
@@ -907,15 +709,6 @@
     "high_level_tag": "Number Theory",
     "low_level_tag": "unsolved problems",
     "added_at": "2026-03-13T04:56:18.046456+00:00"
-  },
-  {
-    "id": "202603130456189187",
-    "title": "Monte Carlo Methods",
-    "url": "https://towardsdatascience.com/monte-carlo-simulations-in-python-f4a6c4948c21",
-    "description": "Using randomness to solve deterministic problems in science and finance.",
-    "high_level_tag": "Applied Math",
-    "low_level_tag": "numerical methods",
-    "added_at": "2026-03-13T04:56:18.046460+00:00"
   },
   {
     "id": "202603130456189456",
@@ -1069,5 +862,41 @@
     "high_level_tag": "Logic",
     "low_level_tag": "category theory",
     "added_at": "2026-03-13T04:56:18.046539+00:00"
+  },
+  {
+    "id": "202603131217247175",
+    "title": "What is Mathematics? - Courant and Robbins",
+    "url": "https://www.amazon.com/What-Mathematics-Elementary-Approach-Ideas/dp/0195105192",
+    "description": "Classic introduction to mathematical thinking covering number theory, geometry, topology, and calculus.",
+    "high_level_tag": "General",
+    "low_level_tag": "introduction",
+    "added_at": "2026-03-13T12:17:24.160757+00:00"
+  },
+  {
+    "id": "202603131217248308",
+    "title": "The Man Who Loved Only Numbers - Paul Hoffman",
+    "url": "https://www.amazon.com/Man-Who-Loved-Only-Numbers/dp/0786884061",
+    "description": "Biography of Paul Erdős, the legendary mathematician who lived for mathematics.",
+    "high_level_tag": "General",
+    "low_level_tag": "biography",
+    "added_at": "2026-03-13T12:17:24.160761+00:00"
+  },
+  {
+    "id": "202603131217249234",
+    "title": "Topology - James Munkres",
+    "url": "https://www.amazon.com/Topology-2nd-James-Munkres/dp/0131816292",
+    "description": "Standard undergraduate topology text covering point-set and algebraic topology.",
+    "high_level_tag": "Topology",
+    "low_level_tag": "general topology",
+    "added_at": "2026-03-13T12:17:24.160793+00:00"
+  },
+  {
+    "id": "202603131217243433",
+    "title": "Love and Math - Edward Frenkel",
+    "url": "https://www.amazon.com/Love-Math-Heart-Hidden-Reality/dp/0465050743",
+    "description": "A mathematician's journey through the Langlands program and the beauty of modern mathematics.",
+    "high_level_tag": "General",
+    "low_level_tag": "autobiography",
+    "added_at": "2026-03-13T12:17:24.160797+00:00"
   }
 ]
