@@ -241,5 +241,401 @@
     "high_level_tag": "General",
     "low_level_tag": "reference",
     "added_at": "2026-03-13T04:21:34.976937+00:00"
+  },
+  {
+    "id": "202603130454536815",
+    "title": "Professor Leonard",
+    "url": "https://www.youtube.com/@ProfessorLeonard",
+    "description": "Full-length lecture videos for calculus, statistics, and differential equations.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "calculus",
+    "added_at": "2026-03-13T04:54:53.511951+00:00"
+  },
+  {
+    "id": "202603130454531309",
+    "title": "Brilliant.org - Mathematical Fundamentals",
+    "url": "https://brilliant.org/courses/math-fundamentals/",
+    "description": "Interactive courses covering logic, number theory, algebra, and geometry.",
+    "high_level_tag": "General",
+    "low_level_tag": "interactive learning",
+    "added_at": "2026-03-13T04:54:53.511966+00:00"
+  },
+  {
+    "id": "202603130454532483",
+    "title": "Lorenz Attractor Visualization",
+    "url": "https://www.youtube.com/watch?v=f0olkzMGEJ8",
+    "description": "Beautiful 3D visualization of the Lorenz attractor, the butterfly effect in action.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "dynamical systems",
+    "added_at": "2026-03-13T04:54:53.511973+00:00"
+  },
+  {
+    "id": "202603130454536834",
+    "title": "European Mathematical Society",
+    "url": "https://euromathsoc.org/",
+    "description": "Organization promoting mathematical research in Europe.",
+    "high_level_tag": "General",
+    "low_level_tag": "organization",
+    "added_at": "2026-03-13T04:54:53.511979+00:00"
+  },
+  {
+    "id": "202603130454532433",
+    "title": "Mathematicians Solve the 'Happy Ending' Problem",
+    "url": "https://www.quantamagazine.org/mathematicians-solve-the-happy-ending-problem-20230821/",
+    "description": "New progress on a classic problem in combinatorial geometry about convex polygons.",
+    "high_level_tag": "Geometry",
+    "low_level_tag": "combinatorial geometry",
+    "added_at": "2026-03-13T04:54:53.511983+00:00"
+  },
+  {
+    "id": "202603130454533007",
+    "title": "SymPy Live",
+    "url": "https://live.sympy.org/",
+    "description": "Online Python shell with SymPy for symbolic mathematics.",
+    "high_level_tag": "General",
+    "low_level_tag": "symbolic computation",
+    "added_at": "2026-03-13T04:54:53.511989+00:00"
+  },
+  {
+    "id": "202603130454535201",
+    "title": "Cantor's Diagonal Argument",
+    "url": "https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument",
+    "description": "The proof that real numbers are uncountable, changing mathematics forever.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "set theory",
+    "added_at": "2026-03-13T04:54:53.511994+00:00"
+  },
+  {
+    "id": "202603130454537764",
+    "title": "Khan Academy Mathematics",
+    "url": "https://www.youtube.com/@khanacademy",
+    "description": "Comprehensive math education from arithmetic to multivariable calculus.",
+    "high_level_tag": "General",
+    "low_level_tag": "education",
+    "added_at": "2026-03-13T04:54:53.511998+00:00"
+  },
+  {
+    "id": "202603130454537024",
+    "title": "arXiv Mathematics",
+    "url": "https://arxiv.org/math",
+    "description": "Preprint server for mathematics papers. The latest research before it hits journals.",
+    "high_level_tag": "General",
+    "low_level_tag": "research",
+    "added_at": "2026-03-13T04:54:53.512018+00:00"
+  },
+  {
+    "id": "202603130454535570",
+    "title": "The Unsolvable Problem Behind Tap Dancing",
+    "url": "https://www.quantamagazine.org/the-unsolvable-problem-behind-tap-dancing-20230720/",
+    "description": "How the problem of finding optimal sequences relates to deep mathematical questions.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "optimization",
+    "added_at": "2026-03-13T04:54:53.512023+00:00"
+  },
+  {
+    "id": "202603130454537791",
+    "title": "Hilbert's Hotel",
+    "url": "https://www.youtube.com/watch?v=faQBrAQ87l4",
+    "description": "Vsauce explains the paradox of Hilbert's Hotel and different sizes of infinity.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "infinity",
+    "added_at": "2026-03-13T04:54:53.512028+00:00"
+  },
+  {
+    "id": "202603130454536203",
+    "title": "London Mathematical Society",
+    "url": "https://www.lms.ac.uk/",
+    "description": "UK's learned society for mathematics, founded in 1865.",
+    "high_level_tag": "General",
+    "low_level_tag": "organization",
+    "added_at": "2026-03-13T04:54:53.512033+00:00"
+  },
+  {
+    "id": "202603130454533889",
+    "title": "MathOverflow",
+    "url": "https://mathoverflow.net/",
+    "description": "Q&A for professional mathematicians. Research-level discussions on cutting-edge topics.",
+    "high_level_tag": "General",
+    "low_level_tag": "Q&A",
+    "added_at": "2026-03-13T04:54:53.512037+00:00"
+  },
+  {
+    "id": "202603130454536077",
+    "title": "Clay Mathematics Institute",
+    "url": "https://www.claymath.org/",
+    "description": "Private foundation dedicated to increasing mathematical knowledge. Home of the Millennium Problems.",
+    "high_level_tag": "General",
+    "low_level_tag": "research institute",
+    "added_at": "2026-03-13T04:54:53.512041+00:00"
+  },
+  {
+    "id": "202603130454536338",
+    "title": "Mathematical Association of America",
+    "url": "https://www.maa.org/",
+    "description": "Organization focused on undergraduate mathematics education.",
+    "high_level_tag": "General",
+    "low_level_tag": "education",
+    "added_at": "2026-03-13T04:54:53.512045+00:00"
+  },
+  {
+    "id": "202603130454534277",
+    "title": "Complex Analysis - Elias Stein",
+    "url": "https://www.amazon.com/Complex-Analysis-Princeton-Lectures-No/dp/0691113858",
+    "description": "Beautiful introduction to complex analysis with connections to Fourier analysis.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "complex analysis",
+    "added_at": "2026-03-13T04:54:53.512050+00:00"
+  },
+  {
+    "id": "202603130454536115",
+    "title": "Wolfram Alpha",
+    "url": "https://www.wolframalpha.com/",
+    "description": "Computational intelligence that answers factual queries using structured data.",
+    "high_level_tag": "General",
+    "low_level_tag": "computation",
+    "added_at": "2026-03-13T04:54:53.512056+00:00"
+  },
+  {
+    "id": "202603130454537993",
+    "title": "The Man Who Loved Only Numbers - Paul Hoffman",
+    "url": "https://www.amazon.com/Man-Who-Loved-Only-Numbers/dp/0786884061",
+    "description": "Biography of Paul Erdős, the legendary mathematician who lived for mathematics.",
+    "high_level_tag": "General",
+    "low_level_tag": "biography",
+    "added_at": "2026-03-13T04:54:53.512060+00:00"
+  },
+  {
+    "id": "202603130454537048",
+    "title": "Nash Equilibrium",
+    "url": "https://www.youtube.com/watch?v=HG4jlZ9k6XA",
+    "description": "Explanation of Nash Equilibrium and its applications in economics and biology.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "game theory",
+    "added_at": "2026-03-13T04:54:53.512066+00:00"
+  },
+  {
+    "id": "202603130454533685",
+    "title": "Algebraic Geometry - Robin Hartshorne",
+    "url": "https://www.amazon.com/Algebraic-Geometry-Graduate-Texts-Mathematics/dp/0387902449",
+    "description": "The definitive graduate text on modern algebraic geometry using schemes.",
+    "high_level_tag": "Geometry",
+    "low_level_tag": "algebraic geometry",
+    "added_at": "2026-03-13T04:54:53.512070+00:00"
+  },
+  {
+    "id": "202603130454536617",
+    "title": "Mathematicians Calculate How Randomness Creeps In",
+    "url": "https://www.quantamagazine.org/mathematicians-calculate-how-randomness-creeps-in-20230313/",
+    "description": "New results on how quickly randomness spreads in dynamical systems.",
+    "high_level_tag": "Probability",
+    "low_level_tag": "random processes",
+    "added_at": "2026-03-13T04:54:53.512074+00:00"
+  },
+  {
+    "id": "202603130454532582",
+    "title": "Gödel, Escher, Bach - Douglas Hofstadter",
+    "url": "https://www.amazon.com/Gödel-Escher-Bach-Eternal-Golden/dp/0465026567",
+    "description": "A profound exploration of consciousness, mathematics, art, and music through interwoven narratives.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "consciousness",
+    "added_at": "2026-03-13T04:54:53.512078+00:00"
+  },
+  {
+    "id": "202603130454538829",
+    "title": "Society for Industrial and Applied Mathematics",
+    "url": "https://www.siam.org/",
+    "description": "Professional organization for applied mathematicians and computational scientists.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "organization",
+    "added_at": "2026-03-13T04:54:53.512082+00:00"
+  },
+  {
+    "id": "202603130454538767",
+    "title": "3D-XplorMath",
+    "url": "http://3d-xplormath.org/",
+    "description": "Software for visualizing mathematical objects in 3D.",
+    "high_level_tag": "Geometry",
+    "low_level_tag": "visualization",
+    "added_at": "2026-03-13T04:54:53.512087+00:00"
+  },
+  {
+    "id": "202603130454532944",
+    "title": "The Fractal Geometry of Nature",
+    "url": "https://en.wikipedia.org/wiki/The_Fractal_Geometry_of_Nature",
+    "description": "Benoit Mandelbrot's seminal book on fractals in nature.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "fractals",
+    "added_at": "2026-03-13T04:54:53.512091+00:00"
+  },
+  {
+    "id": "202603130454538604",
+    "title": "Principles of Mathematical Analysis - Walter Rudin",
+    "url": "https://www.amazon.com/Principles-Mathematical-Analysis-International-Mathematics/dp/007054235X",
+    "description": "Classic graduate text in real analysis, known as 'Baby Rudin'.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "real analysis",
+    "added_at": "2026-03-13T04:54:53.512095+00:00"
+  },
+  {
+    "id": "202603130454536870",
+    "title": "Stack Exchange - Mathematics",
+    "url": "https://math.stackexchange.com/",
+    "description": "Q&A for all levels of mathematics, from elementary to advanced.",
+    "high_level_tag": "General",
+    "low_level_tag": "Q&A",
+    "added_at": "2026-03-13T04:54:53.512100+00:00"
+  },
+  {
+    "id": "202603130454536782",
+    "title": "The RSA Algorithm",
+    "url": "https://en.wikipedia.org/wiki/RSA_(cryptosystem)",
+    "description": "Wikipedia's comprehensive article on the RSA encryption algorithm.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "cryptography",
+    "added_at": "2026-03-13T04:54:53.512104+00:00"
+  },
+  {
+    "id": "202603130454539771",
+    "title": "Topology - James Munkres",
+    "url": "https://www.amazon.com/Topology-2nd-James-Munkres/dp/0131816292",
+    "description": "Standard undergraduate topology text covering point-set and algebraic topology.",
+    "high_level_tag": "Topology",
+    "low_level_tag": "general topology",
+    "added_at": "2026-03-13T04:54:53.512108+00:00"
+  },
+  {
+    "id": "202603130454539987",
+    "title": "What is Mathematics? - Courant and Robbins",
+    "url": "https://www.amazon.com/What-Mathematics-Elementary-Approach-Ideas/dp/0195105192",
+    "description": "Classic introduction to mathematical thinking covering number theory, geometry, topology, and calculus.",
+    "high_level_tag": "General",
+    "low_level_tag": "introduction",
+    "added_at": "2026-03-13T04:54:53.512112+00:00"
+  },
+  {
+    "id": "202603130454532396",
+    "title": "PatrickJMT",
+    "url": "https://www.youtube.com/@patrickjmt",
+    "description": "Short, clear math tutorials covering everything from algebra to calculus.",
+    "high_level_tag": "General",
+    "low_level_tag": "tutorials",
+    "added_at": "2026-03-13T04:54:53.512116+00:00"
+  },
+  {
+    "id": "202603130454534061",
+    "title": "Encyclopedia of Mathematics",
+    "url": "https://encyclopediaofmath.org/",
+    "description": "Open-access encyclopedia with over 8,000 articles on mathematical topics.",
+    "high_level_tag": "General",
+    "low_level_tag": "reference",
+    "added_at": "2026-03-13T04:54:53.512120+00:00"
+  },
+  {
+    "id": "202603130454531688",
+    "title": "Love and Math - Edward Frenkel",
+    "url": "https://www.amazon.com/Love-Math-Heart-Hidden-Reality/dp/0465050743",
+    "description": "A mathematician's journey through the Langlands program and the beauty of modern mathematics.",
+    "high_level_tag": "General",
+    "low_level_tag": "autobiography",
+    "added_at": "2026-03-13T04:54:53.512127+00:00"
+  },
+  {
+    "id": "202603130454533056",
+    "title": "The Prisoner's Dilemma",
+    "url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+    "description": "Stanford Encyclopedia of Philosophy entry on this classic game theory problem.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "game theory",
+    "added_at": "2026-03-13T04:54:53.512131+00:00"
+  },
+  {
+    "id": "202603130454535606",
+    "title": "Abstract Algebra - Dummit and Foote",
+    "url": "https://www.amazon.com/Abstract-Algebra-3rd-David-Dummit/dp/0471433349",
+    "description": "Comprehensive graduate algebra text covering groups, rings, fields, and modules.",
+    "high_level_tag": "Algebra",
+    "low_level_tag": "abstract algebra",
+    "added_at": "2026-03-13T04:54:53.512135+00:00"
+  },
+  {
+    "id": "202603130454534518",
+    "title": "American Mathematical Society",
+    "url": "https://www.ams.org/",
+    "description": "Professional organization promoting mathematical research and education.",
+    "high_level_tag": "General",
+    "low_level_tag": "organization",
+    "added_at": "2026-03-13T04:54:53.512140+00:00"
+  },
+  {
+    "id": "202603130454535080",
+    "title": "The MacTutor History of Mathematics",
+    "url": "https://mathshistory.st-andrews.ac.uk/",
+    "description": "Extensive archive of mathematician biographies and historical articles.",
+    "high_level_tag": "General",
+    "low_level_tag": "history",
+    "added_at": "2026-03-13T04:54:53.512145+00:00"
+  },
+  {
+    "id": "202603130454539347",
+    "title": "An Introduction to Elliptic Curve Cryptography",
+    "url": "https://www.ams.org/notices/199909/boneh.pdf",
+    "description": "Article explaining how elliptic curves secure modern communications.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "cryptography",
+    "added_at": "2026-03-13T04:54:53.512151+00:00"
+  },
+  {
+    "id": "202603130454538508",
+    "title": "Chaos Theory and the Logistic Map",
+    "url": "https://en.wikipedia.org/wiki/Logistic_map",
+    "description": "Introduction to chaos through the logistic map, showing period doubling and bifurcations.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "chaos theory",
+    "added_at": "2026-03-13T04:54:53.512155+00:00"
+  },
+  {
+    "id": "202603130454533929",
+    "title": "Fractals: The Colors of Infinity",
+    "url": "https://www.youtube.com/watch?v=G_GBwuYuOOs",
+    "description": "Documentary narrated by Arthur C. Clarke about the Mandelbrot set.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "fractals",
+    "added_at": "2026-03-13T04:54:53.512159+00:00"
+  },
+  {
+    "id": "202603130454531452",
+    "title": "edX - Introduction to Probability",
+    "url": "https://www.edx.org/course/introduction-to-probability",
+    "description": "Comprehensive probability course from MIT covering random variables and limit theorems.",
+    "high_level_tag": "Probability",
+    "low_level_tag": "probability theory",
+    "added_at": "2026-03-13T04:54:53.512164+00:00"
+  },
+  {
+    "id": "202603130454535615",
+    "title": "Desmos Graphing Calculator",
+    "url": "https://www.desmos.com/calculator",
+    "description": "Beautiful, free online graphing calculator. Great for visualizing functions.",
+    "high_level_tag": "General",
+    "low_level_tag": "graphing",
+    "added_at": "2026-03-13T04:54:53.512168+00:00"
+  },
+  {
+    "id": "202603130454531845",
+    "title": "Coursera - Mathematics for Machine Learning",
+    "url": "https://www.coursera.org/specializations/mathematics-machine-learning",
+    "description": "Linear algebra, multivariate calculus, and PCA for machine learning applications.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "machine learning",
+    "added_at": "2026-03-13T04:54:53.512172+00:00"
+  },
+  {
+    "id": "202603130454538444",
+    "title": "Flammable Maths",
+    "url": "https://www.youtube.com/@FlammableMaths",
+    "description": "Competition math problems and interesting mathematical puzzles.",
+    "high_level_tag": "General",
+    "low_level_tag": "problem solving",
+    "added_at": "2026-03-13T04:54:53.512176+00:00"
   }
 ]

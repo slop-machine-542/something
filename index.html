@@ -3,649 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Curated mathematical resources - articles, books, videos, and more">
-    <title>Math Links - Page 1</title>
+    <title>Math Links - Curated Mathematical Resources</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #f5f5f5;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        .subtitle {
-            opacity: 0.9;
-            font-size: 1.1rem;
-        }
-        
-        .stats {
-            margin-top: 1rem;
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-        
-        .controls {
-            background: white;
-            padding: 1.5rem;
-            border-bottom: 1px solid #ddd;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        
-        .search-box {
-            width: 100%;
-            max-width: 600px;
-            padding: 0.75rem 1rem;
-            font-size: 1rem;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-        }
-        
-        .search-box:focus {
-            outline: none;
-            border-color: #667eea;
-        }
-        
-        .filter-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            justify-content: center;
-        }
-        
-        .filter-btn {
-            padding: 0.5rem 1rem;
-            border: 1px solid #ddd;
-            background: white;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: all 0.2s;
-            font-size: 0.9rem;
-        }
-        
-        .filter-btn:hover {
-            background: #f0f0f0;
-        }
-        
-        .filter-btn.active {
-            background: #667eea;
-            color: white;
-            border-color: #667eea;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        
-        .links-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 1.5rem;
-        }
-        
-        .link-card {
-            background: white;
-            border-radius: 12px;
-            padding: 1.5rem;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        
-        .link-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-        }
-        
-        .link-card.hidden {
-            display: none;
-        }
-        
-        .link-header {
-            margin-bottom: 0.75rem;
-        }
-        
-        .link-header h3 {
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        .link-header h3 a {
-            color: #667eea;
-            text-decoration: none;
-        }
-        
-        .link-header h3 a:hover {
-            text-decoration: underline;
-        }
-        
-        .link-meta {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-        
-        .tag {
-            display: inline-block;
-            padding: 0.25rem 0.75rem;
-            border-radius: 15px;
-            font-size: 0.8rem;
-            font-weight: 500;
-        }
-        
-        .tag.high {
-            background: #667eea;
-            color: white;
-        }
-        
-        .tag.low {
-            background: #e0e0e0;
-            color: #555;
-        }
-        
-        .description {
-            color: #666;
-            font-size: 0.95rem;
-            line-height: 1.5;
-        }
-        
-        /* Pagination */
-        .pagination {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
-            margin-top: 2rem;
-            flex-wrap: wrap;
-        }
-        
-        .page-btn, .page-num {
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            text-decoration: none;
-            transition: all 0.2s;
-        }
-        
-        .page-btn {
-            background: #667eea;
-            color: white;
-        }
-        
-        .page-btn:hover {
-            background: #5a67d8;
-        }
-        
-        .page-btn.disabled {
-            background: #ccc;
-            cursor: not-allowed;
-        }
-        
-        .page-numbers {
-            display: flex;
-            gap: 0.25rem;
-        }
-        
-        .page-num {
-            background: white;
-            color: #667eea;
-            border: 1px solid #ddd;
-        }
-        
-        .page-num:hover {
-            background: #f0f0f0;
-        }
-        
-        .page-num.active {
-            background: #667eea;
-            color: white;
-            border-color: #667eea;
-        }
-        
-        .ellipsis {
-            padding: 0.5rem;
-            color: #666;
-        }
-        
-        .pagination-info {
-            text-align: center;
-            color: #666;
-            margin-top: 1rem;
-            font-size: 0.9rem;
-        }
-        
-        .no-results {
-            text-align: center;
-            padding: 3rem;
-            color: #666;
-            font-size: 1.1rem;
-        }
-        
-        footer {
-            text-align: center;
-            padding: 2rem;
-            color: #666;
-            border-top: 1px solid #ddd;
-            margin-top: 2rem;
-        }
-        
-        @media (max-width: 768px) {
-            .links-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            h1 {
-                font-size: 1.8rem;
-            }
-            
-            .pagination {
-                flex-direction: column;
-            }
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3rem 2rem; text-align: center; }
+        h1 { font-size: 3rem; margin-bottom: 1rem; }
+        .subtitle { font-size: 1.2rem; opacity: 0.9; }
+        .stats { display: flex; justify-content: center; gap: 3rem; margin-top: 2rem; flex-wrap: wrap; }
+        .stat { text-align: center; }
+        .stat-number { font-size: 2.5rem; font-weight: bold; }
+        .stat-label { font-size: 0.9rem; opacity: 0.8; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+        .section { background: white; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        h2 { color: #667eea; margin-bottom: 1rem; }
+        .page-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+        .page-link { display: block; padding: 1rem; background: #f8f8f8; border-radius: 8px; text-decoration: none; color: #333; transition: all 0.2s; }
+        .page-link:hover { background: #667eea; color: white; }
+        .page-link span { font-size: 1.2rem; font-weight: bold; }
+        .page-link small { display: block; opacity: 0.7; margin-top: 0.25rem; }
+        .about { line-height: 1.8; color: #555; }
+        .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+        .tag { padding: 0.5rem 1rem; background: #e8e8e8; border-radius: 20px; font-size: 0.85rem; }
+        footer { text-align: center; padding: 2rem; color: #666; }
     </style>
 </head>
 <body>
     <header>
         <h1>🔗 Math Links</h1>
-        <p class="subtitle">Curated mathematical resources - articles, books, videos, and more</p>
-        <p class="stats">27 resources across 7 categories | Page 1 of 1</p>
+        <p class="subtitle">A curated collection of mathematical resources</p>
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">100</div>
+                <div class="stat-label">Total Links</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">2</div>
+                <div class="stat-label">Pages</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">50</div>
+                <div class="stat-label">Links Per Page</div>
+            </div>
+        </div>
     </header>
     
-    <div class="controls">
-        <input type="text" class="search-box" id="search" placeholder="Search by title, description, or tags...">
-        <div class="filter-buttons">
-            <button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="Algebra">Algebra</button><button class="filter-btn" data-filter="Analysis">Analysis</button><button class="filter-btn" data-filter="Applied Math">Applied Math</button><button class="filter-btn" data-filter="Discrete Math">Discrete Math</button><button class="filter-btn" data-filter="General">General</button><button class="filter-btn" data-filter="Logic">Logic</button><button class="filter-btn" data-filter="Number Theory">Number Theory</button>
-        </div>
-    </div>
-    
     <div class="container">
-        <div class="links-grid" id="links-container">
-            
-        <div class="link-card" data-high="Number Theory" data-low="sequences" data-title="the oeis - online encyclopedia of integer sequences" data-desc="database of integer sequences with extensive information and references.">
-            <div class="link-header">
-                <h3><a href="https://oeis.org/" target="_blank" rel="noopener">The OEIS - Online Encyclopedia of Integer Sequences</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Number Theory</span>
-                    <span class="tag low">sequences</span>
-                </div>
+        <div class="section">
+            <h2>📚 Browse All Pages</h2>
+            <div class="page-list">
+                <a href="page1.html" class="page-link">
+                    <span>Page 1</span>
+                    <small>Links 1 - 50</small>
+                </a>
+                <a href="page2.html" class="page-link">
+                    <span>Page 2</span>
+                    <small>Links 51 - 100</small>
+                </a>
             </div>
-            <p class="description">Database of integer sequences with extensive information and references.</p>
         </div>
-
-        <div class="link-card" data-high="Analysis" data-low="complex analysis" data-title="visual complex analysis - tristan needham" data-desc="a geometric approach to complex analysis using beautiful visualizations and intuition.">
-            <div class="link-header">
-                <h3><a href="https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469" target="_blank" rel="noopener">Visual Complex Analysis - Tristan Needham</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Analysis</span>
-                    <span class="tag low">complex analysis</span>
-                </div>
-            </div>
-            <p class="description">A geometric approach to complex analysis using beautiful visualizations and intuition.</p>
-        </div>
-
-        <div class="link-card" data-high="Logic" data-low="set theory" data-title="a proof that some infinities are bigger than others" data-desc="resolution of a 50-year-old problem about cardinal characteristics of the continuum.">
-            <div class="link-header">
-                <h3><a href="https://www.quantamagazine.org/mathematicians-solve-long-standing-infinity-problem-20230713/" target="_blank" rel="noopener">A Proof That Some Infinities Are Bigger Than Others</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Logic</span>
-                    <span class="tag low">set theory</span>
-                </div>
-            </div>
-            <p class="description">Resolution of a 50-year-old problem about cardinal characteristics of the continuum.</p>
-        </div>
-
-        <div class="link-card" data-high="Applied Math" data-low="machine learning" data-title="the geometry of neural networks" data-desc="how algebraic topology helps understand why deep learning works.">
-            <div class="link-header">
-                <h3><a href="https://www.quantamagazine.org/the-geometric-trick-that-makes-computers-learn-20230622/" target="_blank" rel="noopener">The Geometry of Neural Networks</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Applied Math</span>
-                    <span class="tag low">machine learning</span>
-                </div>
-            </div>
-            <p class="description">How algebraic topology helps understand why deep learning works.</p>
-        </div>
-
-        <div class="link-card" data-high="General" data-low="reference" data-title="the princeton companion to mathematics" data-desc="a comprehensive overview of modern mathematics written by leading mathematicians.">
-            <div class="link-header">
-                <h3><a href="https://www.amazon.com/Princeton-Companion-Mathematics-Timothy-Gowers/dp/0691118809" target="_blank" rel="noopener">The Princeton Companion to Mathematics</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">General</span>
-                    <span class="tag low">reference</span>
-                </div>
-            </div>
-            <p class="description">A comprehensive overview of modern mathematics written by leading mathematicians.</p>
-        </div>
-
-        <div class="link-card" data-high="Logic" data-low="category theory" data-title="nlab - category theory" data-desc="wiki-lab for collaborative work on higher category theory and applications.">
-            <div class="link-header">
-                <h3><a href="https://ncatlab.org/nlab/show/HomePage" target="_blank" rel="noopener">nLab - Category Theory</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Logic</span>
-                    <span class="tag low">category theory</span>
-                </div>
-            </div>
-            <p class="description">Wiki-lab for collaborative work on higher category theory and applications.</p>
-        </div>
-
-        <div class="link-card" data-high="General" data-low="overview" data-title="the map of mathematics" data-desc="a comprehensive visual guide showing how different areas of mathematics connect to each other.">
-            <div class="link-header">
-                <h3><a href="https://www.quantamagazine.org/the-map-of-mathematics-20200213/" target="_blank" rel="noopener">The Map of Mathematics</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">General</span>
-                    <span class="tag low">overview</span>
-                </div>
-            </div>
-            <p class="description">A comprehensive visual guide showing how different areas of mathematics connect to each other.</p>
-        </div>
-
-        <div class="link-card" data-high="Logic" data-low="proof techniques" data-title="how to prove it - daniel velleman" data-desc="an introduction to mathematical proofs and logical thinking for beginning students.">
-            <div class="link-header">
-                <h3><a href="https://www.amazon.com/How-Prove-Structured-Approach-3rd/dp/1108439535" target="_blank" rel="noopener">How to Prove It - Daniel Velleman</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Logic</span>
-                    <span class="tag low">proof techniques</span>
-                </div>
-            </div>
-            <p class="description">An introduction to mathematical proofs and logical thinking for beginning students.</p>
-        </div>
-
-        <div class="link-card" data-high="General" data-low="recreational math" data-title="stand-up maths - the parker square" data-desc="mathematical stand-up comedy and interesting problems.">
-            <div class="link-header">
-                <h3><a href="https://www.youtube.com/@standupmaths" target="_blank" rel="noopener">Stand-up Maths - The Parker Square</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">General</span>
-                    <span class="tag low">recreational math</span>
-                </div>
-            </div>
-            <p class="description">Mathematical stand-up comedy and interesting problems.</p>
-        </div>
-
-        <div class="link-card" data-high="Algebra" data-low="linear algebra" data-title="khan academy - linear algebra" data-desc="comprehensive free course on linear algebra with practice exercises.">
-            <div class="link-header">
-                <h3><a href="https://www.khanacademy.org/math/linear-algebra" target="_blank" rel="noopener">Khan Academy - Linear Algebra</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Algebra</span>
-                    <span class="tag low">linear algebra</span>
-                </div>
-            </div>
-            <p class="description">Comprehensive free course on linear algebra with practice exercises.</p>
-        </div>
-
-        <div class="link-card" data-high="General" data-low="history" data-title="journey through genius - william dunham" data-desc="explores the great theorems of mathematics and the stories behind them.">
-            <div class="link-header">
-                <h3><a href="https://www.amazon.com/Journey-Through-Genius-Theorems-Mathematics/dp/014014739X" target="_blank" rel="noopener">Journey Through Genius - William Dunham</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">General</span>
-                    <span class="tag low">history</span>
-                </div>
-            </div>
-            <p class="description">Explores the great theorems of mathematics and the stories behind them.</p>
-        </div>
-
-        <div class="link-card" data-high="General" data-low="interactive" data-title="geogebra - dynamic mathematics" data-desc="interactive geometry, algebra, statistics and calculus application.">
-            <div class="link-header">
-                <h3><a href="https://www.geogebra.org/" target="_blank" rel="noopener">Geogebra - Dynamic Mathematics</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">General</span>
-                    <span class="tag low">interactive</span>
-                </div>
-            </div>
-            <p class="description">Interactive geometry, algebra, statistics and calculus application.</p>
-        </div>
-
-        <div class="link-card" data-high="Discrete Math" data-low="computational complexity" data-title="mathematicians prove tetris is hard" data-desc="even with perfect information, the classic game tetris is computationally intractable.">
-            <div class="link-header">
-                <h3><a href="https://www.quantamagazine.org/mathematicians-prove-tetris-is-hard-even-with-godlike-abilities-20231031/" target="_blank" rel="noopener">Mathematicians Prove Tetris Is Hard</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Discrete Math</span>
-                    <span class="tag low">computational complexity</span>
-                </div>
-            </div>
-            <p class="description">Even with perfect information, the classic game Tetris is computationally intractable.</p>
-        </div>
-
-        <div class="link-card" data-high="General" data-low="education" data-title="mit opencourseware - mathematics" data-desc="free lecture notes, exams, and videos from mit mathematics courses.">
-            <div class="link-header">
-                <h3><a href="https://ocw.mit.edu/courses/mathematics/" target="_blank" rel="noopener">MIT OpenCourseWare - Mathematics</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">General</span>
-                    <span class="tag low">education</span>
-                </div>
-            </div>
-            <p class="description">Free lecture notes, exams, and videos from MIT mathematics courses.</p>
-        </div>
-
-        <div class="link-card" data-high="Number Theory" data-low="history" data-title="fermat's enigma - simon singh" data-desc="the story of fermat's last theorem and andrew wiles' proof.">
-            <div class="link-header">
-                <h3><a href="https://www.amazon.com/Fermats-Enigma-Greatest-Mathematical-Solved/dp/0385494638" target="_blank" rel="noopener">Fermat's Enigma - Simon Singh</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Number Theory</span>
-                    <span class="tag low">history</span>
-                </div>
-            </div>
-            <p class="description">The story of Fermat's Last Theorem and Andrew Wiles' proof.</p>
-        </div>
-
-        <div class="link-card" data-high="Number Theory" data-low="prime numbers" data-title="numberphile - prime numbers" data-desc="videos about numbers and mathematics with mathematicians from around the world.">
-            <div class="link-header">
-                <h3><a href="https://www.youtube.com/@numberphile" target="_blank" rel="noopener">Numberphile - Prime Numbers</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Number Theory</span>
-                    <span class="tag low">prime numbers</span>
-                </div>
-            </div>
-            <p class="description">Videos about numbers and mathematics with mathematicians from around the world.</p>
-        </div>
-
-        <div class="link-card" data-high="Applied Math" data-low="tensor calculus" data-title="tensor network diagrams" data-desc="visual introduction to tensor networks used in quantum computing and ml.">
-            <div class="link-header">
-                <h3><a href="https://tensornetwork.org/" target="_blank" rel="noopener">Tensor Network Diagrams</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Applied Math</span>
-                    <span class="tag low">tensor calculus</span>
-                </div>
-            </div>
-            <p class="description">Visual introduction to tensor networks used in quantum computing and ML.</p>
-        </div>
-
-        <div class="link-card" data-high="Applied Math" data-low="differential equations" data-title="dr. peyam - differential equations" data-desc="clear explanations of differential equations and applied mathematics.">
-            <div class="link-header">
-                <h3><a href="https://www.youtube.com/@drpeyam" target="_blank" rel="noopener">Dr. Peyam - Differential Equations</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Applied Math</span>
-                    <span class="tag low">differential equations</span>
-                </div>
-            </div>
-            <p class="description">Clear explanations of differential equations and applied mathematics.</p>
-        </div>
-
-        <div class="link-card" data-high="Applied Math" data-low="mathematical physics" data-title="the road to reality - roger penrose" data-desc="a comprehensive guide to the laws of the universe, from the basics to cutting-edge physics.">
-            <div class="link-header">
-                <h3><a href="https://www.amazon.com/Road-Reality-Complete-Guide-Universe/dp/0679776311" target="_blank" rel="noopener">The Road to Reality - Roger Penrose</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Applied Math</span>
-                    <span class="tag low">mathematical physics</span>
-                </div>
-            </div>
-            <p class="description">A comprehensive guide to the laws of the universe, from the basics to cutting-edge physics.</p>
-        </div>
-
-        <div class="link-card" data-high="Number Theory" data-low="riemann hypothesis" data-title="mathologer - the riemann hypothesis" data-desc="deep dives into beautiful mathematics with clear explanations.">
-            <div class="link-header">
-                <h3><a href="https://www.youtube.com/@Mathologer" target="_blank" rel="noopener">Mathologer - The Riemann Hypothesis</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Number Theory</span>
-                    <span class="tag low">riemann hypothesis</span>
-                </div>
-            </div>
-            <p class="description">Deep dives into beautiful mathematics with clear explanations.</p>
-        </div>
-
-        <div class="link-card" data-high="Number Theory" data-low="algorithms" data-title="the prime number conspiracy" data-desc="new algorithms are changing how we multiply numbers, with applications in cryptography and computer science.">
-            <div class="link-header">
-                <h3><a href="https://www.quantamagazine.org/mathematicians-discover-the-perfect-way-to-multiply-20190411/" target="_blank" rel="noopener">The Prime Number Conspiracy</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Number Theory</span>
-                    <span class="tag low">algorithms</span>
-                </div>
-            </div>
-            <p class="description">New algorithms are changing how we multiply numbers, with applications in cryptography and computer science.</p>
-        </div>
-
-        <div class="link-card" data-high="Number Theory" data-low="modular forms" data-title="the l-functions and modular forms database" data-desc="extensive database of l-functions, modular forms, and related objects.">
-            <div class="link-header">
-                <h3><a href="https://www.lmfdb.org/" target="_blank" rel="noopener">The L-functions and Modular Forms Database</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Number Theory</span>
-                    <span class="tag low">modular forms</span>
-                </div>
-            </div>
-            <p class="description">Extensive database of L-functions, modular forms, and related objects.</p>
-        </div>
-
-        <div class="link-card" data-high="Logic" data-low="formal verification" data-title="the archive of formal proofs" data-desc="a collection of proof libraries for the isabelle proof assistant.">
-            <div class="link-header">
-                <h3><a href="https://www.isa-afp.org/" target="_blank" rel="noopener">The Archive of Formal Proofs</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Logic</span>
-                    <span class="tag low">formal verification</span>
-                </div>
-            </div>
-            <p class="description">A collection of proof libraries for the Isabelle proof assistant.</p>
-        </div>
-
-        <div class="link-card" data-high="Analysis" data-low="complex dynamics" data-title="the mandelbrot set explorer" data-desc="interactive exploration of the mandelbrot set with high-resolution zooming.">
-            <div class="link-header">
-                <h3><a href="https://mandelbrotset.net/" target="_blank" rel="noopener">The Mandelbrot Set Explorer</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Analysis</span>
-                    <span class="tag low">complex dynamics</span>
-                </div>
-            </div>
-            <p class="description">Interactive exploration of the Mandelbrot set with high-resolution zooming.</p>
-        </div>
-
-        <div class="link-card" data-high="Analysis" data-low="real analysis" data-title="michael penn - real analysis" data-desc="lecture-style videos covering real analysis, abstract algebra, and more.">
-            <div class="link-header">
-                <h3><a href="https://www.youtube.com/@MichaelPennMath" target="_blank" rel="noopener">Michael Penn - Real Analysis</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Analysis</span>
-                    <span class="tag low">real analysis</span>
-                </div>
-            </div>
-            <p class="description">Lecture-style videos covering real analysis, abstract algebra, and more.</p>
-        </div>
-
-        <div class="link-card" data-high="Algebra" data-low="linear algebra" data-title="3blue1brown - essence of linear algebra" data-desc="beautiful visual explanations of linear algebra concepts using animation.">
-            <div class="link-header">
-                <h3><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" target="_blank" rel="noopener">3Blue1Brown - Essence of Linear Algebra</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">Algebra</span>
-                    <span class="tag low">linear algebra</span>
-                </div>
-            </div>
-            <p class="description">Beautiful visual explanations of linear algebra concepts using animation.</p>
-        </div>
-
-        <div class="link-card" data-high="General" data-low="reference" data-title="wolfram mathworld" data-desc="extensive mathematics resource with detailed articles on thousands of topics.">
-            <div class="link-header">
-                <h3><a href="https://mathworld.wolfram.com/" target="_blank" rel="noopener">Wolfram MathWorld</a></h3>
-                <div class="link-meta">
-                    <span class="tag high">General</span>
-                    <span class="tag low">reference</span>
-                </div>
-            </div>
-            <p class="description">Extensive mathematics resource with detailed articles on thousands of topics.</p>
-        </div>
-
-        </div>
-        <div class="no-results hidden" id="no-results">No results found. Try a different search.</div>
         
+        <div class="section">
+            <h2>🏷️ Categories</h2>
+            <p class="about">Links are organized by mathematical area:</p>
+            <div class="tags">
+                <span class="tag">Algebra</span>
+                <span class="tag">Analysis</span>
+                <span class="tag">Topology</span>
+                <span class="tag">Number Theory</span>
+                <span class="tag">Geometry</span>
+                <span class="tag">Logic</span>
+                <span class="tag">Probability</span>
+                <span class="tag">Applied Math</span>
+                <span class="tag">Discrete Math</span>
+                <span class="tag">General</span>
+            </div>
+        </div>
         
+        <div class="section">
+            <h2>ℹ️ About</h2>
+            <p class="about">
+                Math Links is an automatically curated collection of mathematical resources from around the web. 
+                New links are added hourly from sources including Quanta Magazine, 3Blue1Brown, academic papers, 
+                textbooks, and online courses. Each link includes high-level and low-level tags for easy discovery.
+            </p>
+            <p class="about" style="margin-top: 1rem;">
+                Use the search and filter features on each page to find resources by topic, 
+                or browse by page to discover new mathematical content.
+            </p>
+        </div>
     </div>
     
     <footer>
-        <p>Updated: 2026-03-13 04:46 UTC | Auto-generated with ❤️</p>
+        <p>Updated: 2026-03-13 04:54 UTC | Auto-generated with ❤️</p>
     </footer>
-    
-    <script>
-        const searchInput = document.getElementById('search');
-        const linksContainer = document.getElementById('links-container');
-        const noResults = document.getElementById('no-results');
-        const filterBtns = document.querySelectorAll('.filter-btn');
-        const linkCards = document.querySelectorAll('.link-card');
-        const pagination = document.querySelector('.pagination');
-        const paginationInfo = document.querySelector('.pagination-info');
-        
-        let currentFilter = 'all';
-        
-        function filterLinks() {
-            const searchTerm = searchInput.value.toLowerCase();
-            let visibleCount = 0;
-            
-            linkCards.forEach(card => {
-                const high = card.dataset.high;
-                const low = card.dataset.low;
-                const title = card.dataset.title;
-                const desc = card.dataset.desc;
-                
-                const matchesFilter = currentFilter === 'all' || high === currentFilter;
-                const matchesSearch = !searchTerm || 
-                    title.includes(searchTerm) || 
-                    desc.includes(searchTerm) || 
-                    high.toLowerCase().includes(searchTerm) || 
-                    low.toLowerCase().includes(searchTerm);
-                
-                if (matchesFilter && matchesSearch) {
-                    card.classList.remove('hidden');
-                    visibleCount++;
-                } else {
-                    card.classList.add('hidden');
-                }
-            });
-            
-            noResults.classList.toggle('hidden', visibleCount > 0);
-            
-            // Hide pagination when filtering/searching
-            if (pagination) {
-                pagination.style.display = searchTerm || currentFilter !== 'all' ? 'none' : 'flex';
-            }
-            if (paginationInfo) {
-                paginationInfo.style.display = searchTerm || currentFilter !== 'all' ? 'none' : 'block';
-            }
-        }
-        
-        searchInput.addEventListener('input', filterLinks);
-        
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                currentFilter = btn.dataset.filter;
-                filterLinks();
-            });
-        });
-    </script>
 </body>
 </html>
