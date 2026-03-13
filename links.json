@@ -1,0 +1,182 @@
+[
+  {
+    "id": "202603130421341571",
+    "title": "How to Prove It - Daniel Velleman",
+    "url": "https://www.amazon.com/How-Prove-Structured-Approach-3rd/dp/1108439535",
+    "description": "An introduction to mathematical proofs and logical thinking for beginning students.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "proof techniques",
+    "added_at": "2026-03-13T04:21:34.977083+00:00"
+  },
+  {
+    "id": "202603130421348062",
+    "title": "Stand-up Maths - The Parker Square",
+    "url": "https://www.youtube.com/@standupmaths",
+    "description": "Mathematical stand-up comedy and interesting problems.",
+    "high_level_tag": "General",
+    "low_level_tag": "recreational math",
+    "added_at": "2026-03-13T04:21:34.977079+00:00"
+  },
+  {
+    "id": "202603130421345176",
+    "title": "Khan Academy - Linear Algebra",
+    "url": "https://www.khanacademy.org/math/linear-algebra",
+    "description": "Comprehensive free course on linear algebra with practice exercises.",
+    "high_level_tag": "Algebra",
+    "low_level_tag": "linear algebra",
+    "added_at": "2026-03-13T04:21:34.977074+00:00"
+  },
+  {
+    "id": "202603130421343741",
+    "title": "Journey Through Genius - William Dunham",
+    "url": "https://www.amazon.com/Journey-Through-Genius-Theorems-Mathematics/dp/014014739X",
+    "description": "Explores the great theorems of mathematics and the stories behind them.",
+    "high_level_tag": "General",
+    "low_level_tag": "history",
+    "added_at": "2026-03-13T04:21:34.977068+00:00"
+  },
+  {
+    "id": "202603130421346458",
+    "title": "Geogebra - Dynamic Mathematics",
+    "url": "https://www.geogebra.org/",
+    "description": "Interactive geometry, algebra, statistics and calculus application.",
+    "high_level_tag": "General",
+    "low_level_tag": "interactive",
+    "added_at": "2026-03-13T04:21:34.977061+00:00"
+  },
+  {
+    "id": "202603130421348022",
+    "title": "Mathematicians Prove Tetris Is Hard",
+    "url": "https://www.quantamagazine.org/mathematicians-prove-tetris-is-hard-even-with-godlike-abilities-20231031/",
+    "description": "Even with perfect information, the classic game Tetris is computationally intractable.",
+    "high_level_tag": "Discrete Math",
+    "low_level_tag": "computational complexity",
+    "added_at": "2026-03-13T04:21:34.977056+00:00"
+  },
+  {
+    "id": "202603130421346318",
+    "title": "MIT OpenCourseWare - Mathematics",
+    "url": "https://ocw.mit.edu/courses/mathematics/",
+    "description": "Free lecture notes, exams, and videos from MIT mathematics courses.",
+    "high_level_tag": "General",
+    "low_level_tag": "education",
+    "added_at": "2026-03-13T04:21:34.977050+00:00"
+  },
+  {
+    "id": "202603130421349443",
+    "title": "Fermat's Enigma - Simon Singh",
+    "url": "https://www.amazon.com/Fermats-Enigma-Greatest-Mathematical-Solved/dp/0385494638",
+    "description": "The story of Fermat's Last Theorem and Andrew Wiles' proof.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "history",
+    "added_at": "2026-03-13T04:21:34.977042+00:00"
+  },
+  {
+    "id": "202603130421341127",
+    "title": "Numberphile - Prime Numbers",
+    "url": "https://www.youtube.com/@numberphile",
+    "description": "Videos about numbers and mathematics with mathematicians from around the world.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "prime numbers",
+    "added_at": "2026-03-13T04:21:34.977036+00:00"
+  },
+  {
+    "id": "202603130421341431",
+    "title": "Tensor Network Diagrams",
+    "url": "https://tensornetwork.org/",
+    "description": "Visual introduction to tensor networks used in quantum computing and ML.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "tensor calculus",
+    "added_at": "2026-03-13T04:21:34.977031+00:00"
+  },
+  {
+    "id": "202603130421349304",
+    "title": "Dr. Peyam - Differential Equations",
+    "url": "https://www.youtube.com/@drpeyam",
+    "description": "Clear explanations of differential equations and applied mathematics.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "differential equations",
+    "added_at": "2026-03-13T04:21:34.977026+00:00"
+  },
+  {
+    "id": "202603130421346386",
+    "title": "The Road to Reality - Roger Penrose",
+    "url": "https://www.amazon.com/Road-Reality-Complete-Guide-Universe/dp/0679776311",
+    "description": "A comprehensive guide to the laws of the universe, from the basics to cutting-edge physics.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "mathematical physics",
+    "added_at": "2026-03-13T04:21:34.977019+00:00"
+  },
+  {
+    "id": "202603130421346735",
+    "title": "Mathologer - The Riemann Hypothesis",
+    "url": "https://www.youtube.com/@Mathologer",
+    "description": "Deep dives into beautiful mathematics with clear explanations.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "riemann hypothesis",
+    "added_at": "2026-03-13T04:21:34.976997+00:00"
+  },
+  {
+    "id": "202603130421349866",
+    "title": "The Prime Number Conspiracy",
+    "url": "https://www.quantamagazine.org/mathematicians-discover-the-perfect-way-to-multiply-20190411/",
+    "description": "New algorithms are changing how we multiply numbers, with applications in cryptography and computer science.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "algorithms",
+    "added_at": "2026-03-13T04:21:34.976992+00:00"
+  },
+  {
+    "id": "202603130421341819",
+    "title": "The L-functions and Modular Forms Database",
+    "url": "https://www.lmfdb.org/",
+    "description": "Extensive database of L-functions, modular forms, and related objects.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "modular forms",
+    "added_at": "2026-03-13T04:21:34.976987+00:00"
+  },
+  {
+    "id": "202603130421348415",
+    "title": "The Archive of Formal Proofs",
+    "url": "https://www.isa-afp.org/",
+    "description": "A collection of proof libraries for the Isabelle proof assistant.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "formal verification",
+    "added_at": "2026-03-13T04:21:34.976981+00:00"
+  },
+  {
+    "id": "202603130421349826",
+    "title": "The Mandelbrot Set Explorer",
+    "url": "https://mandelbrotset.net/",
+    "description": "Interactive exploration of the Mandelbrot set with high-resolution zooming.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "complex dynamics",
+    "added_at": "2026-03-13T04:21:34.976973+00:00"
+  },
+  {
+    "id": "202603130421345381",
+    "title": "Michael Penn - Real Analysis",
+    "url": "https://www.youtube.com/@MichaelPennMath",
+    "description": "Lecture-style videos covering real analysis, abstract algebra, and more.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "real analysis",
+    "added_at": "2026-03-13T04:21:34.976964+00:00"
+  },
+  {
+    "id": "202603130421342294",
+    "title": "3Blue1Brown - Essence of Linear Algebra",
+    "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+    "description": "Beautiful visual explanations of linear algebra concepts using animation.",
+    "high_level_tag": "Algebra",
+    "low_level_tag": "linear algebra",
+    "added_at": "2026-03-13T04:21:34.976955+00:00"
+  },
+  {
+    "id": "202603130421347548",
+    "title": "Wolfram MathWorld",
+    "url": "https://mathworld.wolfram.com/",
+    "description": "Extensive mathematics resource with detailed articles on thousands of topics.",
+    "high_level_tag": "General",
+    "low_level_tag": "reference",
+    "added_at": "2026-03-13T04:21:34.976937+00:00"
+  }
+]
