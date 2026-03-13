@@ -1,5 +1,14 @@
 [
   {
+    "id": "202603130446118549",
+    "title": "The OEIS - Online Encyclopedia of Integer Sequences",
+    "url": "https://oeis.org/",
+    "description": "Database of integer sequences with extensive information and references.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "sequences",
+    "added_at": "2026-03-13T04:46:11.446028+00:00"
+  },
+  {
     "id": "202603130446046475",
     "title": "Visual Complex Analysis - Tristan Needham",
     "url": "https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469",
