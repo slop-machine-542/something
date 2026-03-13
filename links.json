@@ -637,5 +637,437 @@
     "high_level_tag": "General",
     "low_level_tag": "problem solving",
     "added_at": "2026-03-13T04:54:53.512176+00:00"
+  },
+  {
+    "id": "202603130456186985",
+    "title": "The Golden Ratio",
+    "url": "https://www.youtube.com/watch?v=5zosU6XTgSY",
+    "description": "The mathematics and mythology behind nature's supposed favorite number.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "golden ratio",
+    "added_at": "2026-03-13T04:56:18.046288+00:00"
+  },
+  {
+    "id": "202603130456184869",
+    "title": "The Hairy Ball Theorem",
+    "url": "https://www.youtube.com/watch?v=c0gDLEHbC6Y",
+    "description": "Why you can't comb a hairy ball flat without creating a cowlick.",
+    "high_level_tag": "Topology",
+    "low_level_tag": "vector fields",
+    "added_at": "2026-03-13T04:56:18.046303+00:00"
+  },
+  {
+    "id": "202603130456186723",
+    "title": "The Fast Fourier Transform",
+    "url": "https://www.youtube.com/watch?v=h7apO7q16V0",
+    "description": "The algorithm that revolutionized signal processing and data analysis.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "algorithms",
+    "added_at": "2026-03-13T04:56:18.046311+00:00"
+  },
+  {
+    "id": "202603130456186409",
+    "title": "Introduction to Manifolds",
+    "url": "https://www.math.toronto.edu/mgualt/MAT1300/week1.pdf",
+    "description": "Introduction to the spaces that locally look like Euclidean space.",
+    "high_level_tag": "Topology",
+    "low_level_tag": "manifolds",
+    "added_at": "2026-03-13T04:56:18.046334+00:00"
+  },
+  {
+    "id": "202603130456189978",
+    "title": "Stochastic Calculus",
+    "url": "https://www.youtube.com/watch?v=f7R1fF3wJzQ",
+    "description": "The mathematics of random processes used in finance.",
+    "high_level_tag": "Probability",
+    "low_level_tag": "stochastic processes",
+    "added_at": "2026-03-13T04:56:18.046340+00:00"
+  },
+  {
+    "id": "202603130456184476",
+    "title": "Introduction to Information Theory",
+    "url": "https://www.youtube.com/watch?v=_PG-jJKBIPk",
+    "description": "Claude Shannon's mathematical theory of communication and entropy.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "information theory",
+    "added_at": "2026-03-13T04:56:18.046347+00:00"
+  },
+  {
+    "id": "202603130456183583",
+    "title": "Partial Differential Equations",
+    "url": "https://www.youtube.com/watch?v=LYs_sT7nHPI",
+    "description": "Introduction to the equations that describe heat, waves, and fluid flow.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "pdes",
+    "added_at": "2026-03-13T04:56:18.046351+00:00"
+  },
+  {
+    "id": "202603130456183458",
+    "title": "Introduction to Graph Theory",
+    "url": "https://www.tutorialspoint.com/graph_theory/index.htm",
+    "description": "Comprehensive tutorial covering graphs, trees, and network flows.",
+    "high_level_tag": "Discrete Math",
+    "low_level_tag": "graph theory",
+    "added_at": "2026-03-13T04:56:18.046357+00:00"
+  },
+  {
+    "id": "202603130456183094",
+    "title": "Introduction to Galois Theory",
+    "url": "https://www.youtube.com/watch?v=zCU9tZ2VkWc",
+    "description": "The beautiful connection between field extensions and groups.",
+    "high_level_tag": "Algebra",
+    "low_level_tag": "galois theory",
+    "added_at": "2026-03-13T04:56:18.046361+00:00"
+  },
+  {
+    "id": "202603130456184847",
+    "title": "The Isoperimetric Inequality",
+    "url": "https://www.youtube.com/watch?v=2dI9OLwZ8yg",
+    "description": "Why the circle encloses the most area for a given perimeter.",
+    "high_level_tag": "Geometry",
+    "low_level_tag": "optimization",
+    "added_at": "2026-03-13T04:56:18.046366+00:00"
+  },
+  {
+    "id": "202603130456187058",
+    "title": "Introduction to Differential Geometry",
+    "url": "https://www.maths.ed.ac.uk/~v1ranick/papers/diffgeombook.pdf",
+    "description": "Free comprehensive textbook on curves and surfaces in 3D space.",
+    "high_level_tag": "Geometry",
+    "low_level_tag": "differential geometry",
+    "added_at": "2026-03-13T04:56:18.046370+00:00"
+  },
+  {
+    "id": "202603130456182611",
+    "title": "The Pigeonhole Principle",
+    "url": "https://brilliant.org/wiki/pigeonhole-principle/",
+    "description": "Simple yet powerful combinatorial principle with surprising applications.",
+    "high_level_tag": "Discrete Math",
+    "low_level_tag": "combinatorics",
+    "added_at": "2026-03-13T04:56:18.046375+00:00"
+  },
+  {
+    "id": "202603130456183784",
+    "title": "The Birthday Paradox",
+    "url": "https://www.youtube.com/watch?v=ofTb57aZHZs",
+    "description": "Why you only need 23 people for a 50% chance of shared birthdays.",
+    "high_level_tag": "Probability",
+    "low_level_tag": "paradoxes",
+    "added_at": "2026-03-13T04:56:18.046379+00:00"
+  },
+  {
+    "id": "202603130456187782",
+    "title": "The Riemann Hypothesis Explained",
+    "url": "https://www.youtube.com/watch?v=GFhzqFvO3FU",
+    "description": "Numberphile explains the most famous unsolved problem in mathematics.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "riemann hypothesis",
+    "added_at": "2026-03-13T04:56:18.046385+00:00"
+  },
+  {
+    "id": "202603130456186507",
+    "title": "Complex Dynamics",
+    "url": "https://www.youtube.com/watch?v=G9Cr5zB9Z7Y",
+    "description": "The beautiful mathematics of iterating complex functions.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "complex dynamics",
+    "added_at": "2026-03-13T04:56:18.046389+00:00"
+  },
+  {
+    "id": "202603130456186466",
+    "title": "Introduction to Measure Theory",
+    "url": "https://www.youtube.com/watch?v=74JrB1jVr7o",
+    "description": "The rigorous foundation of integration and probability.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "measure theory",
+    "added_at": "2026-03-13T04:56:18.046393+00:00"
+  },
+  {
+    "id": "202603130456184514",
+    "title": "Understanding Markov Chains",
+    "url": "https://brilliant.org/wiki/markov-chains/",
+    "description": "Interactive explanation of Markov chains and their applications in modeling.",
+    "high_level_tag": "Probability",
+    "low_level_tag": "markov chains",
+    "added_at": "2026-03-13T04:56:18.046398+00:00"
+  },
+  {
+    "id": "202603130456182205",
+    "title": "The Jordan Curve Theorem",
+    "url": "https://www.youtube.com/watch?v=CS4uyQcE5-Q",
+    "description": "Why every simple closed curve divides the plane into inside and outside.",
+    "high_level_tag": "Topology",
+    "low_level_tag": "plane topology",
+    "added_at": "2026-03-13T04:56:18.046402+00:00"
+  },
+  {
+    "id": "202603130456187688",
+    "title": "Understanding p-adic Numbers",
+    "url": "https://www.youtube.com/watch?v=3gyHKCDq1YA",
+    "description": "An alternative way to measure distance that leads to strange and beautiful mathematics.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "p-adic analysis",
+    "added_at": "2026-03-13T04:56:18.046407+00:00"
+  },
+  {
+    "id": "202603130456181737",
+    "title": "Introduction to Knot Theory",
+    "url": "https://www.math.ucla.edu/~radko/191.1.05w/knots.pdf",
+    "description": "Free notes on the mathematics of knots and their invariants.",
+    "high_level_tag": "Topology",
+    "low_level_tag": "knot theory",
+    "added_at": "2026-03-13T04:56:18.046412+00:00"
+  },
+  {
+    "id": "202603130456184978",
+    "title": "The Law of Large Numbers",
+    "url": "https://www.youtube.com/watch?v=M8xeSh4vD2E",
+    "description": "Why averages converge to expected values as sample size grows.",
+    "high_level_tag": "Probability",
+    "low_level_tag": "limit theorems",
+    "added_at": "2026-03-13T04:56:18.046416+00:00"
+  },
+  {
+    "id": "202603130456184616",
+    "title": "The Axiom of Choice",
+    "url": "https://www.youtube.com/watch?v=PC0_CTzoM1E",
+    "description": "A controversial axiom with surprising and counterintuitive consequences.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "set theory",
+    "added_at": "2026-03-13T04:56:18.046421+00:00"
+  },
+  {
+    "id": "202603130456185060",
+    "title": "Linear Programming",
+    "url": "https://www.youtube.com/watch?v=B3biWsBLeNc",
+    "description": "How to optimize linear objective functions subject to constraints.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "optimization",
+    "added_at": "2026-03-13T04:56:18.046426+00:00"
+  },
+  {
+    "id": "202603130456185499",
+    "title": "Visual Group Theory",
+    "url": "https://www.youtube.com/playlist?list=PLwV-9DG53NDxU631sT-WkCsLgxYpMKg9E",
+    "description": "Beautiful visual approach to understanding group theory concepts.",
+    "high_level_tag": "Algebra",
+    "low_level_tag": "group theory",
+    "added_at": "2026-03-13T04:56:18.046430+00:00"
+  },
+  {
+    "id": "202603130456184157",
+    "title": "The Sylow Theorems",
+    "url": "https://www.youtube.com/watch?v=6VIb9k3aT4k",
+    "description": "Fundamental theorems about the structure of finite groups.",
+    "high_level_tag": "Algebra",
+    "low_level_tag": "group theory",
+    "added_at": "2026-03-13T04:56:18.046435+00:00"
+  },
+  {
+    "id": "202603130456187634",
+    "title": "The Mathematics of Machine Learning",
+    "url": "https://towardsdatascience.com/mathematics-of-machine-learning-3e5855d70f1e",
+    "description": "Comprehensive guide to the mathematical foundations of ML algorithms.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "machine learning",
+    "added_at": "2026-03-13T04:56:18.046439+00:00"
+  },
+  {
+    "id": "202603130456183568",
+    "title": "The ABC Conjecture",
+    "url": "https://www.youtube.com/watch?v=HI7eKI01aPo",
+    "description": "A deep problem connecting addition and multiplication of integers.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "abc conjecture",
+    "added_at": "2026-03-13T04:56:18.046444+00:00"
+  },
+  {
+    "id": "202603130456189475",
+    "title": "The Central Limit Theorem",
+    "url": "https://www.youtube.com/watch?v=JNm3M9cqWyc",
+    "description": "Why bell curves appear everywhere in nature and statistics.",
+    "high_level_tag": "Probability",
+    "low_level_tag": "statistics",
+    "added_at": "2026-03-13T04:56:18.046448+00:00"
+  },
+  {
+    "id": "202603130456182011",
+    "title": "Bayesian Statistics Explained",
+    "url": "https://towardsdatascience.com/bayesian-statistics-explained-to-beginners-7089027a3e1",
+    "description": "Beginner-friendly explanation of Bayesian inference and its applications.",
+    "high_level_tag": "Probability",
+    "low_level_tag": "bayesian statistics",
+    "added_at": "2026-03-13T04:56:18.046452+00:00"
+  },
+  {
+    "id": "202603130456185359",
+    "title": "The Collatz Conjecture",
+    "url": "https://www.youtube.com/watch?v=094y1Z2wpJg",
+    "description": "The simplest unsolved problem in mathematics that anyone can understand.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "unsolved problems",
+    "added_at": "2026-03-13T04:56:18.046456+00:00"
+  },
+  {
+    "id": "202603130456189187",
+    "title": "Monte Carlo Methods",
+    "url": "https://towardsdatascience.com/monte-carlo-simulations-in-python-f4a6c4948c21",
+    "description": "Using randomness to solve deterministic problems in science and finance.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "numerical methods",
+    "added_at": "2026-03-13T04:56:18.046460+00:00"
+  },
+  {
+    "id": "202603130456189456",
+    "title": "Gödel's Incompleteness Theorem",
+    "url": "https://www.youtube.com/watch?v=HeQX2HjkcNo",
+    "description": "The theorem that changed mathematics by proving some truths are unprovable.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "incompleteness",
+    "added_at": "2026-03-13T04:56:18.046464+00:00"
+  },
+  {
+    "id": "202603130456184964",
+    "title": "The Beauty of the Fourier Transform",
+    "url": "https://www.youtube.com/watch?v=spUNpyF58BY",
+    "description": "3Blue1Brown explains how the Fourier transform decomposes signals into frequencies.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "fourier analysis",
+    "added_at": "2026-03-13T04:56:18.046472+00:00"
+  },
+  {
+    "id": "202603130456189971",
+    "title": "Non-Euclidean Geometry",
+    "url": "https://www.youtube.com/watch?v=zQo_S2GyLwg",
+    "description": "How mathematicians discovered geometry where parallel lines can meet.",
+    "high_level_tag": "Geometry",
+    "low_level_tag": "non-euclidean",
+    "added_at": "2026-03-13T04:56:18.046477+00:00"
+  },
+  {
+    "id": "202603130456186561",
+    "title": "Game Theory in Economics",
+    "url": "https://www.investopedia.com/terms/g/gametheory.asp",
+    "description": "How mathematical models of strategic interaction explain economic behavior.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "game theory",
+    "added_at": "2026-03-13T04:56:18.046481+00:00"
+  },
+  {
+    "id": "202603130456182341",
+    "title": "Topology Explained - Topology Jokes",
+    "url": "https://www.youtube.com/watch?v=tds0qoxWVss",
+    "description": "How topologists view the world differently - donuts and coffee cups are the same!",
+    "high_level_tag": "Topology",
+    "low_level_tag": "introduction",
+    "added_at": "2026-03-13T04:56:18.046487+00:00"
+  },
+  {
+    "id": "202603130456188519",
+    "title": "Ramanujan's Infinite Series",
+    "url": "https://www.youtube.com/watch?v=j-ZAy8bFgX0",
+    "description": "The self-taught mathematician's miraculous formulas for pi.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "series",
+    "added_at": "2026-03-13T04:56:18.046491+00:00"
+  },
+  {
+    "id": "202603130456182721",
+    "title": "The Monty Hall Problem",
+    "url": "https://www.youtube.com/watch?v=4Lb-6rxZxx0",
+    "description": "The counterintuitive probability puzzle that fooled thousands.",
+    "high_level_tag": "Probability",
+    "low_level_tag": "conditional probability",
+    "added_at": "2026-03-13T04:56:18.046495+00:00"
+  },
+  {
+    "id": "202603130456182648",
+    "title": "Introduction to Algebraic Topology",
+    "url": "https://www.youtube.com/playlist?list=PLpRLWqLFLVSBL2OSrdqEY3zRktTqUjL8A",
+    "description": "Using algebra to study holes and connectivity in spaces.",
+    "high_level_tag": "Topology",
+    "low_level_tag": "algebraic topology",
+    "added_at": "2026-03-13T04:56:18.046500+00:00"
+  },
+  {
+    "id": "202603130456183196",
+    "title": "Introduction to Topology",
+    "url": "https://www.youtube.com/playlist?list=PLpG_ISEhE6bVeCSx7Qtz2R_t9oJ7r_8F8",
+    "description": "Tadashi Tokieda's intuitive introduction to topological concepts.",
+    "high_level_tag": "Topology",
+    "low_level_tag": "introduction",
+    "added_at": "2026-03-13T04:56:18.046504+00:00"
+  },
+  {
+    "id": "202603130456189331",
+    "title": "The Ham Sandwich Theorem",
+    "url": "https://www.youtube.com/watch?v=tVjTg6A1Ues",
+    "description": "Why you can always fairly split a ham sandwich between two thieves with one cut.",
+    "high_level_tag": "Topology",
+    "low_level_tag": "fair division",
+    "added_at": "2026-03-13T04:56:18.046508+00:00"
+  },
+  {
+    "id": "202603130456183304",
+    "title": "Calculus Made Easy",
+    "url": "http://calculusmadeeasy.org/",
+    "description": "Classic book by Silvanus Thompson making calculus accessible to everyone.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "calculus",
+    "added_at": "2026-03-13T04:56:18.046512+00:00"
+  },
+  {
+    "id": "202603130456183614",
+    "title": "The Math Behind Bitcoin",
+    "url": "https://www.youtube.com/watch?v=bBC-nXj3Ng4",
+    "description": "How elliptic curve cryptography secures cryptocurrency transactions.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "cryptography",
+    "added_at": "2026-03-13T04:56:18.046516+00:00"
+  },
+  {
+    "id": "202603130456182850",
+    "title": "Understanding Eigenvalues and Eigenvectors",
+    "url": "https://www.mathsisfun.com/algebra/eigenvalue.html",
+    "description": "Visual guide to understanding what eigenvalues and eigenvectors really mean.",
+    "high_level_tag": "Algebra",
+    "low_level_tag": "linear algebra",
+    "added_at": "2026-03-13T04:56:18.046520+00:00"
+  },
+  {
+    "id": "202603130456182585",
+    "title": "The Four Color Theorem",
+    "url": "https://www.youtube.com/watch?v=42-ws3bkrKM",
+    "description": "How computers helped prove that any map can be colored with just four colors.",
+    "high_level_tag": "Discrete Math",
+    "low_level_tag": "graph theory",
+    "added_at": "2026-03-13T04:56:18.046524+00:00"
+  },
+  {
+    "id": "202603130456185211",
+    "title": "Understanding Tensor Calculus",
+    "url": "https://www.youtube.com/watch?v=CliW7kSxxWU",
+    "description": "Introduction to the mathematics behind general relativity.",
+    "high_level_tag": "Geometry",
+    "low_level_tag": "tensor calculus",
+    "added_at": "2026-03-13T04:56:18.046530+00:00"
+  },
+  {
+    "id": "202603130456182958",
+    "title": "The Banach-Tarski Paradox",
+    "url": "https://www.youtube.com/watch?v=s86-Z-CbaHA",
+    "description": "How to cut a sphere into pieces and reassemble it into two identical spheres.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "measure theory",
+    "added_at": "2026-03-13T04:56:18.046534+00:00"
+  },
+  {
+    "id": "202603130456185356",
+    "title": "What is Category Theory?",
+    "url": "https://www.youtube.com/watch?v=ho7oagHeqNc",
+    "description": "Introduction to the mathematics of mathematics - the study of structure.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "category theory",
+    "added_at": "2026-03-13T04:56:18.046539+00:00"
   }
 ]
