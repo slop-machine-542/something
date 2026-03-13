@@ -1,5 +1,50 @@
 [
   {
+    "id": "202603130435361181",
+    "title": "A Proof That Some Infinities Are Bigger Than Others",
+    "url": "https://www.quantamagazine.org/mathematicians-solve-long-standing-infinity-problem-20230713/",
+    "description": "Resolution of a 50-year-old problem about cardinal characteristics of the continuum.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "set theory",
+    "added_at": "2026-03-13T04:35:36.466287+00:00"
+  },
+  {
+    "id": "202603130435367043",
+    "title": "The Geometry of Neural Networks",
+    "url": "https://www.quantamagazine.org/the-geometric-trick-that-makes-computers-learn-20230622/",
+    "description": "How algebraic topology helps understand why deep learning works.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "machine learning",
+    "added_at": "2026-03-13T04:35:36.466233+00:00"
+  },
+  {
+    "id": "202603130435369468",
+    "title": "The Princeton Companion to Mathematics",
+    "url": "https://www.amazon.com/Princeton-Companion-Mathematics-Timothy-Gowers/dp/0691118809",
+    "description": "A comprehensive overview of modern mathematics written by leading mathematicians.",
+    "high_level_tag": "General",
+    "low_level_tag": "reference",
+    "added_at": "2026-03-13T04:35:36.466213+00:00"
+  },
+  {
+    "id": "202603130435361133",
+    "title": "nLab - Category Theory",
+    "url": "https://ncatlab.org/nlab/show/HomePage",
+    "description": "Wiki-lab for collaborative work on higher category theory and applications.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "category theory",
+    "added_at": "2026-03-13T04:35:36.466199+00:00"
+  },
+  {
+    "id": "202603130435365246",
+    "title": "The Map of Mathematics",
+    "url": "https://www.quantamagazine.org/the-map-of-mathematics-20200213/",
+    "description": "A comprehensive visual guide showing how different areas of mathematics connect to each other.",
+    "high_level_tag": "General",
+    "low_level_tag": "overview",
+    "added_at": "2026-03-13T04:35:36.466193+00:00"
+  },
+  {
     "id": "202603130421341571",
     "title": "How to Prove It - Daniel Velleman",
     "url": "https://www.amazon.com/How-Prove-Structured-Approach-3rd/dp/1108439535",
