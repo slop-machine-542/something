@@ -1,5 +1,14 @@
 [
   {
+    "id": "202603130446046475",
+    "title": "Visual Complex Analysis - Tristan Needham",
+    "url": "https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469",
+    "description": "A geometric approach to complex analysis using beautiful visualizations and intuition.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "complex analysis",
+    "added_at": "2026-03-13T04:46:04.966506+00:00"
+  },
+  {
     "id": "202603130435361181",
     "title": "A Proof That Some Infinities Are Bigger Than Others",
     "url": "https://www.quantamagazine.org/mathematicians-solve-long-standing-infinity-problem-20230713/",
