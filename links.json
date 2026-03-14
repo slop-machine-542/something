@@ -9,15 +9,6 @@
     "added_at": "2026-03-13T04:46:11.446028+00:00"
   },
   {
-    "id": "202603130446046475",
-    "title": "Visual Complex Analysis - Tristan Needham",
-    "url": "https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469",
-    "description": "A geometric approach to complex analysis using beautiful visualizations and intuition.",
-    "high_level_tag": "Analysis",
-    "low_level_tag": "complex analysis",
-    "added_at": "2026-03-13T04:46:04.966506+00:00"
-  },
-  {
     "id": "202603130435369468",
     "title": "The Princeton Companion to Mathematics",
     "url": "https://www.amazon.com/Princeton-Companion-Mathematics-Timothy-Gowers/dp/0691118809",
@@ -898,5 +889,14 @@
     "high_level_tag": "Algebra",
     "low_level_tag": "abstract algebra",
     "added_at": "2026-03-14T16:18:08.867646+00:00"
+  },
+  {
+    "id": "202603141740527425",
+    "title": "Visual Complex Analysis - Tristan Needham",
+    "url": "https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469",
+    "description": "A geometric approach to complex analysis using beautiful visualizations and intuition.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "complex analysis",
+    "added_at": "2026-03-14T17:40:52.573223+00:00"
   }
 ]
