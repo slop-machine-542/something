@@ -135,15 +135,6 @@
     "added_at": "2026-03-13T04:21:34.977026+00:00"
   },
   {
-    "id": "202603130421346386",
-    "title": "The Road to Reality - Roger Penrose",
-    "url": "https://www.amazon.com/Road-Reality-Complete-Guide-Universe/dp/0679776311",
-    "description": "A comprehensive guide to the laws of the universe, from the basics to cutting-edge physics.",
-    "high_level_tag": "Applied Math",
-    "low_level_tag": "mathematical physics",
-    "added_at": "2026-03-13T04:21:34.977019+00:00"
-  },
-  {
     "id": "202603130421346735",
     "title": "Mathologer - The Riemann Hypothesis",
     "url": "https://www.youtube.com/@Mathologer",
@@ -412,15 +403,6 @@
     "high_level_tag": "Applied Math",
     "low_level_tag": "game theory",
     "added_at": "2026-03-13T04:54:53.512131+00:00"
-  },
-  {
-    "id": "202603130454535606",
-    "title": "Abstract Algebra - Dummit and Foote",
-    "url": "https://www.amazon.com/Abstract-Algebra-3rd-David-Dummit/dp/0471433349",
-    "description": "Comprehensive graduate algebra text covering groups, rings, fields, and modules.",
-    "high_level_tag": "Algebra",
-    "low_level_tag": "abstract algebra",
-    "added_at": "2026-03-13T04:54:53.512135+00:00"
   },
   {
     "id": "202603130454535080",
@@ -898,5 +880,23 @@
     "high_level_tag": "General",
     "low_level_tag": "autobiography",
     "added_at": "2026-03-13T12:17:24.160797+00:00"
+  },
+  {
+    "id": "202603141618081949",
+    "title": "The Road to Reality - Roger Penrose",
+    "url": "https://www.amazon.com/Road-Reality-Complete-Guide-Universe/dp/0679776311",
+    "description": "A comprehensive guide to the laws of the universe, from the basics to cutting-edge physics.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "mathematical physics",
+    "added_at": "2026-03-14T16:18:08.867541+00:00"
+  },
+  {
+    "id": "202603141618088633",
+    "title": "Abstract Algebra - Dummit and Foote",
+    "url": "https://www.amazon.com/Abstract-Algebra-3rd-David-Dummit/dp/0471433349",
+    "description": "Comprehensive graduate algebra text covering groups, rings, fields, and modules.",
+    "high_level_tag": "Algebra",
+    "low_level_tag": "abstract algebra",
+    "added_at": "2026-03-14T16:18:08.867646+00:00"
   }
 ]
