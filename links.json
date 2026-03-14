@@ -837,15 +837,6 @@
     "added_at": "2026-03-13T04:56:18.046539+00:00"
   },
   {
-    "id": "202603131217248308",
-    "title": "The Man Who Loved Only Numbers - Paul Hoffman",
-    "url": "https://www.amazon.com/Man-Who-Loved-Only-Numbers/dp/0786884061",
-    "description": "Biography of Paul Erdős, the legendary mathematician who lived for mathematics.",
-    "high_level_tag": "General",
-    "low_level_tag": "biography",
-    "added_at": "2026-03-13T12:17:24.160761+00:00"
-  },
-  {
     "id": "202603131217243433",
     "title": "Love and Math - Edward Frenkel",
     "url": "https://www.amazon.com/Love-Math-Heart-Hidden-Reality/dp/0465050743",
@@ -898,5 +889,14 @@
     "high_level_tag": "Topology",
     "low_level_tag": "general topology",
     "added_at": "2026-03-14T18:40:48.394718+00:00"
+  },
+  {
+    "id": "202603142040493456",
+    "title": "The Man Who Loved Only Numbers - Paul Hoffman",
+    "url": "https://www.amazon.com/Man-Who-Loved-Only-Numbers/dp/0786884061",
+    "description": "Biography of Paul Erdős, the legendary mathematician who lived for mathematics.",
+    "high_level_tag": "General",
+    "low_level_tag": "biography",
+    "added_at": "2026-03-14T20:40:49.750122+00:00"
   }
 ]
