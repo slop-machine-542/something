@@ -36,15 +36,6 @@
     "added_at": "2026-03-13T04:35:36.466193+00:00"
   },
   {
-    "id": "202603130421341571",
-    "title": "How to Prove It - Daniel Velleman",
-    "url": "https://www.amazon.com/How-Prove-Structured-Approach-3rd/dp/1108439535",
-    "description": "An introduction to mathematical proofs and logical thinking for beginning students.",
-    "high_level_tag": "Logic",
-    "low_level_tag": "proof techniques",
-    "added_at": "2026-03-13T04:21:34.977083+00:00"
-  },
-  {
     "id": "202603130421348062",
     "title": "Stand-up Maths - The Parker Square",
     "url": "https://www.youtube.com/@standupmaths",
@@ -855,15 +846,6 @@
     "added_at": "2026-03-14T16:18:08.867646+00:00"
   },
   {
-    "id": "202603141740527425",
-    "title": "Visual Complex Analysis - Tristan Needham",
-    "url": "https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469",
-    "description": "A geometric approach to complex analysis using beautiful visualizations and intuition.",
-    "high_level_tag": "Analysis",
-    "low_level_tag": "complex analysis",
-    "added_at": "2026-03-14T17:40:52.573223+00:00"
-  },
-  {
     "id": "202603141840483855",
     "title": "What is Mathematics? - Courant and Robbins",
     "url": "https://www.amazon.com/What-Mathematics-Elementary-Approach-Ideas/dp/0195105192",
@@ -898,5 +880,23 @@
     "high_level_tag": "Analysis",
     "low_level_tag": "real analysis",
     "added_at": "2026-03-14T21:40:47.714929+00:00"
+  },
+  {
+    "id": "202603142240452451",
+    "title": "How to Prove It - Daniel Velleman",
+    "url": "https://www.amazon.com/How-Prove-Structured-Approach-3rd/dp/1108439535",
+    "description": "An introduction to mathematical proofs and logical thinking for beginning students.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "proof techniques",
+    "added_at": "2026-03-14T22:40:45.558261+00:00"
+  },
+  {
+    "id": "202603142240459168",
+    "title": "Visual Complex Analysis - Tristan Needham",
+    "url": "https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469",
+    "description": "A geometric approach to complex analysis using beautiful visualizations and intuition.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "complex analysis",
+    "added_at": "2026-03-14T22:40:45.558330+00:00"
   }
 ]
