@@ -837,15 +837,6 @@
     "added_at": "2026-03-13T04:56:18.046539+00:00"
   },
   {
-    "id": "202603131217247175",
-    "title": "What is Mathematics? - Courant and Robbins",
-    "url": "https://www.amazon.com/What-Mathematics-Elementary-Approach-Ideas/dp/0195105192",
-    "description": "Classic introduction to mathematical thinking covering number theory, geometry, topology, and calculus.",
-    "high_level_tag": "General",
-    "low_level_tag": "introduction",
-    "added_at": "2026-03-13T12:17:24.160757+00:00"
-  },
-  {
     "id": "202603131217248308",
     "title": "The Man Who Loved Only Numbers - Paul Hoffman",
     "url": "https://www.amazon.com/Man-Who-Loved-Only-Numbers/dp/0786884061",
@@ -853,15 +844,6 @@
     "high_level_tag": "General",
     "low_level_tag": "biography",
     "added_at": "2026-03-13T12:17:24.160761+00:00"
-  },
-  {
-    "id": "202603131217249234",
-    "title": "Topology - James Munkres",
-    "url": "https://www.amazon.com/Topology-2nd-James-Munkres/dp/0131816292",
-    "description": "Standard undergraduate topology text covering point-set and algebraic topology.",
-    "high_level_tag": "Topology",
-    "low_level_tag": "general topology",
-    "added_at": "2026-03-13T12:17:24.160793+00:00"
   },
   {
     "id": "202603131217243433",
@@ -898,5 +880,23 @@
     "high_level_tag": "Analysis",
     "low_level_tag": "complex analysis",
     "added_at": "2026-03-14T17:40:52.573223+00:00"
+  },
+  {
+    "id": "202603141840483855",
+    "title": "What is Mathematics? - Courant and Robbins",
+    "url": "https://www.amazon.com/What-Mathematics-Elementary-Approach-Ideas/dp/0195105192",
+    "description": "Classic introduction to mathematical thinking covering number theory, geometry, topology, and calculus.",
+    "high_level_tag": "General",
+    "low_level_tag": "introduction",
+    "added_at": "2026-03-14T18:40:48.394683+00:00"
+  },
+  {
+    "id": "202603141840486838",
+    "title": "Topology - James Munkres",
+    "url": "https://www.amazon.com/Topology-2nd-James-Munkres/dp/0131816292",
+    "description": "Standard undergraduate topology text covering point-set and algebraic topology.",
+    "high_level_tag": "Topology",
+    "low_level_tag": "general topology",
+    "added_at": "2026-03-14T18:40:48.394718+00:00"
   }
 ]
