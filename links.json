@@ -351,15 +351,6 @@
     "added_at": "2026-03-13T04:54:53.512091+00:00"
   },
   {
-    "id": "202603130454538604",
-    "title": "Principles of Mathematical Analysis - Walter Rudin",
-    "url": "https://www.amazon.com/Principles-Mathematical-Analysis-International-Mathematics/dp/007054235X",
-    "description": "Classic graduate text in real analysis, known as 'Baby Rudin'.",
-    "high_level_tag": "Analysis",
-    "low_level_tag": "real analysis",
-    "added_at": "2026-03-13T04:54:53.512095+00:00"
-  },
-  {
     "id": "202603130454536870",
     "title": "Stack Exchange - Mathematics",
     "url": "https://math.stackexchange.com/",
@@ -898,5 +889,14 @@
     "high_level_tag": "General",
     "low_level_tag": "biography",
     "added_at": "2026-03-14T20:40:49.750122+00:00"
+  },
+  {
+    "id": "202603142140479698",
+    "title": "Principles of Mathematical Analysis - Walter Rudin",
+    "url": "https://www.amazon.com/Principles-Mathematical-Analysis-International-Mathematics/dp/007054235X",
+    "description": "Classic graduate text in real analysis, known as 'Baby Rudin'.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "real analysis",
+    "added_at": "2026-03-14T21:40:47.714929+00:00"
   }
 ]
