@@ -9,15 +9,6 @@
     "added_at": "2026-03-13T04:46:11.446028+00:00"
   },
   {
-    "id": "202603130435369468",
-    "title": "The Princeton Companion to Mathematics",
-    "url": "https://www.amazon.com/Princeton-Companion-Mathematics-Timothy-Gowers/dp/0691118809",
-    "description": "A comprehensive overview of modern mathematics written by leading mathematicians.",
-    "high_level_tag": "General",
-    "low_level_tag": "reference",
-    "added_at": "2026-03-13T04:35:36.466213+00:00"
-  },
-  {
     "id": "202603130435361133",
     "title": "nLab - Category Theory",
     "url": "https://ncatlab.org/nlab/show/HomePage",
@@ -898,5 +889,14 @@
     "high_level_tag": "General",
     "low_level_tag": "introduction",
     "added_at": "2026-03-15T03:40:46.246682+00:00"
+  },
+  {
+    "id": "202603150540459329",
+    "title": "The Princeton Companion to Mathematics",
+    "url": "https://www.amazon.com/Princeton-Companion-Mathematics-Timothy-Gowers/dp/0691118809",
+    "description": "A comprehensive overview of modern mathematics written by leading mathematicians.",
+    "high_level_tag": "General",
+    "low_level_tag": "reference",
+    "added_at": "2026-03-15T05:40:45.839139+00:00"
   }
 ]
