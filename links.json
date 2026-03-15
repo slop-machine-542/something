@@ -72,15 +72,6 @@
     "added_at": "2026-03-13T04:21:34.977050+00:00"
   },
   {
-    "id": "202603130421349443",
-    "title": "Fermat's Enigma - Simon Singh",
-    "url": "https://www.amazon.com/Fermats-Enigma-Greatest-Mathematical-Solved/dp/0385494638",
-    "description": "The story of Fermat's Last Theorem and Andrew Wiles' proof.",
-    "high_level_tag": "Number Theory",
-    "low_level_tag": "history",
-    "added_at": "2026-03-13T04:21:34.977042+00:00"
-  },
-  {
     "id": "202603130421341127",
     "title": "Numberphile - Prime Numbers",
     "url": "https://www.youtube.com/@numberphile",
@@ -891,12 +882,21 @@
     "added_at": "2026-03-15T11:40:49.898042+00:00"
   },
   {
-    "id": "202603151341234561",
+    "id": "202603151540545422",
     "title": "The Princeton Companion to Mathematics",
     "url": "https://www.amazon.com/Princeton-Companion-Mathematics-Timothy-Gowers/dp/0691118809",
     "description": "A comprehensive overview of modern mathematics written by leading mathematicians.",
     "high_level_tag": "General",
     "low_level_tag": "reference",
-    "added_at": "2026-03-15T13:41:23.294923+00:00"
+    "added_at": "2026-03-15T15:40:54.242623+00:00"
+  },
+  {
+    "id": "202603151540549235",
+    "title": "Fermat's Enigma - Simon Singh",
+    "url": "https://www.amazon.com/Fermats-Enigma-Greatest-Mathematical-Solved/dp/0385494638",
+    "description": "The story of Fermat's Last Theorem and Andrew Wiles' proof.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "history",
+    "added_at": "2026-03-15T15:40:54.242693+00:00"
   }
 ]
