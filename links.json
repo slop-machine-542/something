@@ -837,15 +837,6 @@
     "added_at": "2026-03-14T16:18:08.867646+00:00"
   },
   {
-    "id": "202603141840483855",
-    "title": "What is Mathematics? - Courant and Robbins",
-    "url": "https://www.amazon.com/What-Mathematics-Elementary-Approach-Ideas/dp/0195105192",
-    "description": "Classic introduction to mathematical thinking covering number theory, geometry, topology, and calculus.",
-    "high_level_tag": "General",
-    "low_level_tag": "introduction",
-    "added_at": "2026-03-14T18:40:48.394683+00:00"
-  },
-  {
     "id": "202603141840486838",
     "title": "Topology - James Munkres",
     "url": "https://www.amazon.com/Topology-2nd-James-Munkres/dp/0131816292",
@@ -853,15 +844,6 @@
     "high_level_tag": "Topology",
     "low_level_tag": "general topology",
     "added_at": "2026-03-14T18:40:48.394718+00:00"
-  },
-  {
-    "id": "202603142040493456",
-    "title": "The Man Who Loved Only Numbers - Paul Hoffman",
-    "url": "https://www.amazon.com/Man-Who-Loved-Only-Numbers/dp/0786884061",
-    "description": "Biography of Paul Erdős, the legendary mathematician who lived for mathematics.",
-    "high_level_tag": "General",
-    "low_level_tag": "biography",
-    "added_at": "2026-03-14T20:40:49.750122+00:00"
   },
   {
     "id": "202603142140479698",
@@ -898,5 +880,23 @@
     "high_level_tag": "General",
     "low_level_tag": "organization",
     "added_at": "2026-03-15T01:40:49.634656+00:00"
+  },
+  {
+    "id": "202603150340461752",
+    "title": "The Man Who Loved Only Numbers - Paul Hoffman",
+    "url": "https://www.amazon.com/Man-Who-Loved-Only-Numbers/dp/0786884061",
+    "description": "Biography of Paul Erdős, the legendary mathematician who lived for mathematics.",
+    "high_level_tag": "General",
+    "low_level_tag": "biography",
+    "added_at": "2026-03-15T03:40:46.246591+00:00"
+  },
+  {
+    "id": "202603150340469274",
+    "title": "What is Mathematics? - Courant and Robbins",
+    "url": "https://www.amazon.com/What-Mathematics-Elementary-Approach-Ideas/dp/0195105192",
+    "description": "Classic introduction to mathematical thinking covering number theory, geometry, topology, and calculus.",
+    "high_level_tag": "General",
+    "low_level_tag": "introduction",
+    "added_at": "2026-03-15T03:40:46.246682+00:00"
   }
 ]
