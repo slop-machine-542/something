@@ -270,15 +270,6 @@
     "added_at": "2026-03-13T04:54:53.512045+00:00"
   },
   {
-    "id": "202603130454534277",
-    "title": "Complex Analysis - Elias Stein",
-    "url": "https://www.amazon.com/Complex-Analysis-Princeton-Lectures-No/dp/0691113858",
-    "description": "Beautiful introduction to complex analysis with connections to Fourier analysis.",
-    "high_level_tag": "Analysis",
-    "low_level_tag": "complex analysis",
-    "added_at": "2026-03-13T04:54:53.512050+00:00"
-  },
-  {
     "id": "202603130454537048",
     "title": "Nash Equilibrium",
     "url": "https://www.youtube.com/watch?v=HG4jlZ9k6XA",
@@ -828,24 +819,6 @@
     "added_at": "2026-03-14T16:18:08.867646+00:00"
   },
   {
-    "id": "202603141840486838",
-    "title": "Topology - James Munkres",
-    "url": "https://www.amazon.com/Topology-2nd-James-Munkres/dp/0131816292",
-    "description": "Standard undergraduate topology text covering point-set and algebraic topology.",
-    "high_level_tag": "Topology",
-    "low_level_tag": "general topology",
-    "added_at": "2026-03-14T18:40:48.394718+00:00"
-  },
-  {
-    "id": "202603142240459168",
-    "title": "Visual Complex Analysis - Tristan Needham",
-    "url": "https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469",
-    "description": "A geometric approach to complex analysis using beautiful visualizations and intuition.",
-    "high_level_tag": "Analysis",
-    "low_level_tag": "complex analysis",
-    "added_at": "2026-03-14T22:40:45.558330+00:00"
-  },
-  {
     "id": "202603150140492627",
     "title": "How to Prove It - Daniel Velleman",
     "url": "https://www.amazon.com/How-Prove-Structured-Approach-3rd/dp/1108439535",
@@ -862,15 +835,6 @@
     "high_level_tag": "General",
     "low_level_tag": "organization",
     "added_at": "2026-03-15T01:40:49.634656+00:00"
-  },
-  {
-    "id": "202603150340461752",
-    "title": "The Man Who Loved Only Numbers - Paul Hoffman",
-    "url": "https://www.amazon.com/Man-Who-Loved-Only-Numbers/dp/0786884061",
-    "description": "Biography of Paul Erdős, the legendary mathematician who lived for mathematics.",
-    "high_level_tag": "General",
-    "low_level_tag": "biography",
-    "added_at": "2026-03-15T03:40:46.246591+00:00"
   },
   {
     "id": "202603150340469274",
@@ -898,5 +862,41 @@
     "high_level_tag": "General",
     "low_level_tag": "reference",
     "added_at": "2026-03-15T09:40:02.561395+00:00"
+  },
+  {
+    "id": "202603151140498717",
+    "title": "Visual Complex Analysis - Tristan Needham",
+    "url": "https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469",
+    "description": "A geometric approach to complex analysis using beautiful visualizations and intuition.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "complex analysis",
+    "added_at": "2026-03-15T11:40:49.897927+00:00"
+  },
+  {
+    "id": "202603151140499097",
+    "title": "The Man Who Loved Only Numbers - Paul Hoffman",
+    "url": "https://www.amazon.com/Man-Who-Loved-Only-Numbers/dp/0786884061",
+    "description": "Biography of Paul Erdős, the legendary mathematician who lived for mathematics.",
+    "high_level_tag": "General",
+    "low_level_tag": "biography",
+    "added_at": "2026-03-15T11:40:49.897952+00:00"
+  },
+  {
+    "id": "202603151140493064",
+    "title": "Complex Analysis - Elias Stein",
+    "url": "https://www.amazon.com/Complex-Analysis-Princeton-Lectures-No/dp/0691113858",
+    "description": "Beautiful introduction to complex analysis with connections to Fourier analysis.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "complex analysis",
+    "added_at": "2026-03-15T11:40:49.898001+00:00"
+  },
+  {
+    "id": "202603151140493478",
+    "title": "Topology - James Munkres",
+    "url": "https://www.amazon.com/Topology-2nd-James-Munkres/dp/0131816292",
+    "description": "Standard undergraduate topology text covering point-set and algebraic topology.",
+    "high_level_tag": "Topology",
+    "low_level_tag": "general topology",
+    "added_at": "2026-03-15T11:40:49.898042+00:00"
   }
 ]
