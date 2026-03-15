@@ -45,15 +45,6 @@
     "added_at": "2026-03-13T04:21:34.977074+00:00"
   },
   {
-    "id": "202603130421343741",
-    "title": "Journey Through Genius - William Dunham",
-    "url": "https://www.amazon.com/Journey-Through-Genius-Theorems-Mathematics/dp/014014739X",
-    "description": "Explores the great theorems of mathematics and the stories behind them.",
-    "high_level_tag": "General",
-    "low_level_tag": "history",
-    "added_at": "2026-03-13T04:21:34.977068+00:00"
-  },
-  {
     "id": "202603130421346458",
     "title": "Geogebra - Dynamic Mathematics",
     "url": "https://www.geogebra.org/",
@@ -898,5 +889,14 @@
     "high_level_tag": "Number Theory",
     "low_level_tag": "history",
     "added_at": "2026-03-15T15:40:54.242693+00:00"
+  },
+  {
+    "id": "202603151740395520",
+    "title": "Journey Through Genius - William Dunham",
+    "url": "https://www.amazon.com/Journey-Through-Genius-Theorems-Mathematics/dp/014014739X",
+    "description": "Explores the great theorems of mathematics and the stories behind them.",
+    "high_level_tag": "General",
+    "low_level_tag": "history",
+    "added_at": "2026-03-15T17:40:39.133596+00:00"
   }
 ]
