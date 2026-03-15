@@ -801,15 +801,6 @@
     "added_at": "2026-03-14T16:18:08.867646+00:00"
   },
   {
-    "id": "202603150140492627",
-    "title": "How to Prove It - Daniel Velleman",
-    "url": "https://www.amazon.com/How-Prove-Structured-Approach-3rd/dp/1108439535",
-    "description": "An introduction to mathematical proofs and logical thinking for beginning students.",
-    "high_level_tag": "Logic",
-    "low_level_tag": "proof techniques",
-    "added_at": "2026-03-15T01:40:49.634576+00:00"
-  },
-  {
     "id": "202603150140496874",
     "title": "European Mathematical Society",
     "url": "https://euromathsoc.org/",
@@ -898,5 +889,14 @@
     "high_level_tag": "General",
     "low_level_tag": "history",
     "added_at": "2026-03-15T17:40:39.133596+00:00"
+  },
+  {
+    "id": "202603152043373750",
+    "title": "How to Prove It - Daniel Velleman",
+    "url": "https://www.amazon.com/How-Prove-Structured-Approach-3rd/dp/1108439535",
+    "description": "An introduction to mathematical proofs and logical thinking for beginning students.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "proof techniques",
+    "added_at": "2026-03-15T20:43:37.774260+00:00"
   }
 ]
