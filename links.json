@@ -889,5 +889,14 @@
     "high_level_tag": "Analysis",
     "low_level_tag": "real analysis",
     "added_at": "2026-03-15T07:40:59.521671+00:00"
+  },
+  {
+    "id": "202603150940021579",
+    "title": "The Princeton Companion to Mathematics",
+    "url": "https://www.amazon.com/Princeton-Companion-Mathematics-Timothy-Gowers/dp/0691118809",
+    "description": "A comprehensive overview of modern mathematics written by leading mathematicians.",
+    "high_level_tag": "General",
+    "low_level_tag": "reference",
+    "added_at": "2026-03-15T09:40:02.561395+00:00"
   }
 ]
