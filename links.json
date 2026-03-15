@@ -207,15 +207,6 @@
     "added_at": "2026-03-13T04:54:53.511973+00:00"
   },
   {
-    "id": "202603130454536834",
-    "title": "European Mathematical Society",
-    "url": "https://euromathsoc.org/",
-    "description": "Organization promoting mathematical research in Europe.",
-    "high_level_tag": "General",
-    "low_level_tag": "organization",
-    "added_at": "2026-03-13T04:54:53.511979+00:00"
-  },
-  {
     "id": "202603130454533007",
     "title": "SymPy Live",
     "url": "https://live.sympy.org/",
@@ -882,15 +873,6 @@
     "added_at": "2026-03-14T21:40:47.714929+00:00"
   },
   {
-    "id": "202603142240452451",
-    "title": "How to Prove It - Daniel Velleman",
-    "url": "https://www.amazon.com/How-Prove-Structured-Approach-3rd/dp/1108439535",
-    "description": "An introduction to mathematical proofs and logical thinking for beginning students.",
-    "high_level_tag": "Logic",
-    "low_level_tag": "proof techniques",
-    "added_at": "2026-03-14T22:40:45.558261+00:00"
-  },
-  {
     "id": "202603142240459168",
     "title": "Visual Complex Analysis - Tristan Needham",
     "url": "https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469",
@@ -898,5 +880,23 @@
     "high_level_tag": "Analysis",
     "low_level_tag": "complex analysis",
     "added_at": "2026-03-14T22:40:45.558330+00:00"
+  },
+  {
+    "id": "202603150140492627",
+    "title": "How to Prove It - Daniel Velleman",
+    "url": "https://www.amazon.com/How-Prove-Structured-Approach-3rd/dp/1108439535",
+    "description": "An introduction to mathematical proofs and logical thinking for beginning students.",
+    "high_level_tag": "Logic",
+    "low_level_tag": "proof techniques",
+    "added_at": "2026-03-15T01:40:49.634576+00:00"
+  },
+  {
+    "id": "202603150140496874",
+    "title": "European Mathematical Society",
+    "url": "https://euromathsoc.org/",
+    "description": "Organization promoting mathematical research in Europe.",
+    "high_level_tag": "General",
+    "low_level_tag": "organization",
+    "added_at": "2026-03-15T01:40:49.634656+00:00"
   }
 ]
