@@ -898,5 +898,14 @@
     "high_level_tag": "Algebra",
     "low_level_tag": "abstract algebra",
     "added_at": "2026-03-16T10:43:45.515804+00:00"
+  },
+  {
+    "id": "202603161243534958",
+    "title": "Encyclopedia of Mathematics",
+    "url": "https://encyclopediaofmath.org/",
+    "description": "Open-access encyclopedia with over 8,000 articles on mathematical topics.",
+    "high_level_tag": "General",
+    "low_level_tag": "reference",
+    "added_at": "2026-03-16T12:43:53.296216+00:00"
   }
 ]
