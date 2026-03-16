@@ -810,15 +810,6 @@
     "added_at": "2026-03-15T03:40:46.246682+00:00"
   },
   {
-    "id": "202603150740591539",
-    "title": "Principles of Mathematical Analysis - Walter Rudin",
-    "url": "https://www.amazon.com/Principles-Mathematical-Analysis-International-Mathematics/dp/007054235X",
-    "description": "Classic graduate text in real analysis, known as 'Baby Rudin'.",
-    "high_level_tag": "Analysis",
-    "low_level_tag": "real analysis",
-    "added_at": "2026-03-15T07:40:59.521671+00:00"
-  },
-  {
     "id": "202603151140498717",
     "title": "Visual Complex Analysis - Tristan Needham",
     "url": "https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469",
@@ -864,15 +855,6 @@
     "added_at": "2026-03-15T15:40:54.242623+00:00"
   },
   {
-    "id": "202603151540549235",
-    "title": "Fermat's Enigma - Simon Singh",
-    "url": "https://www.amazon.com/Fermats-Enigma-Greatest-Mathematical-Solved/dp/0385494638",
-    "description": "The story of Fermat's Last Theorem and Andrew Wiles' proof.",
-    "high_level_tag": "Number Theory",
-    "low_level_tag": "history",
-    "added_at": "2026-03-15T15:40:54.242693+00:00"
-  },
-  {
     "id": "202603151740395520",
     "title": "Journey Through Genius - William Dunham",
     "url": "https://www.amazon.com/Journey-Through-Genius-Theorems-Mathematics/dp/014014739X",
@@ -898,5 +880,23 @@
     "high_level_tag": "General",
     "low_level_tag": "autobiography",
     "added_at": "2026-03-15T22:43:36.072995+00:00"
+  },
+  {
+    "id": "202603160043346574",
+    "title": "Fermat's Enigma - Simon Singh",
+    "url": "https://www.amazon.com/Fermats-Enigma-Greatest-Mathematical-Solved/dp/0385494638",
+    "description": "The story of Fermat's Last Theorem and Andrew Wiles' proof.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "history",
+    "added_at": "2026-03-16T00:43:34.895766+00:00"
+  },
+  {
+    "id": "202603160043347288",
+    "title": "Principles of Mathematical Analysis - Walter Rudin",
+    "url": "https://www.amazon.com/Principles-Mathematical-Analysis-International-Mathematics/dp/007054235X",
+    "description": "Classic graduate text in real analysis, known as 'Baby Rudin'.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "real analysis",
+    "added_at": "2026-03-16T00:43:34.895833+00:00"
   }
 ]
