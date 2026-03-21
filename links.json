@@ -1204,5 +1204,77 @@
     "high_level_tag": "General",
     "low_level_tag": "puzzles",
     "added_at": "2026-03-21T17:58:23.811069+00:00"
+  },
+  {
+    "id": "202603211843018527",
+    "title": "CindyJS",
+    "url": "https://cindyjs.org/",
+    "description": "Interactive mathematical visualization framework for the web.",
+    "high_level_tag": "Geometry",
+    "low_level_tag": "visualization",
+    "added_at": "2026-03-21T18:43:01.189081+00:00"
+  },
+  {
+    "id": "202603211843015405",
+    "title": "zbMATH Open",
+    "url": "https://zbmath.org/",
+    "description": "Open access to the first three volumes of the mathematics review database.",
+    "high_level_tag": "General",
+    "low_level_tag": "research",
+    "added_at": "2026-03-21T18:43:01.189100+00:00"
+  },
+  {
+    "id": "202603211843017530",
+    "title": "Detexify",
+    "url": "http://detexify.kirelabs.org/classify.html",
+    "description": "Draw a symbol and get the LaTeX command for it.",
+    "high_level_tag": "General",
+    "low_level_tag": "tools",
+    "added_at": "2026-03-21T18:43:01.189104+00:00"
+  },
+  {
+    "id": "202603211843016234",
+    "title": "MathWorks MATLAB",
+    "url": "https://www.mathworks.com/products/matlab.html",
+    "description": "Programming platform for engineers and scientists with powerful math tools.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "programming",
+    "added_at": "2026-03-21T18:43:01.189110+00:00"
+  },
+  {
+    "id": "202603211843013558",
+    "title": "IXL Math Practice",
+    "url": "https://www.ixl.com/math",
+    "description": "Interactive math practice with unlimited questions covering pre-K to calculus.",
+    "high_level_tag": "General",
+    "low_level_tag": "practice",
+    "added_at": "2026-03-21T18:43:01.189123+00:00"
+  },
+  {
+    "id": "202603211843014371",
+    "title": "Mathematical Constants",
+    "url": "http://www.davidhbailey.com/dhbpapers/",
+    "description": "Research papers and resources on mathematical constants.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "constants",
+    "added_at": "2026-03-21T18:43:01.189127+00:00"
+  },
+  {
+    "id": "202603211843018175",
+    "title": "Paul's Online Math Notes",
+    "url": "https://tutorial.math.lamar.edu/",
+    "description": "Complete set of free downloadable notes and tutorials for algebra through differential equations.",
+    "high_level_tag": "General",
+    "low_level_tag": "education",
+    "added_at": "2026-03-21T18:43:01.189132+00:00"
+  },
+  {
+    "id": "202603211843019997",
+    "title": "My Favorite Theorem",
+    "url": "https://kpknudson.com/my-favorite-theorem",
+    "description": "Podcast where mathematicians share their favorite theorems and stories.",
+    "high_level_tag": "General",
+    "low_level_tag": "podcast",
+    "added_at": "2026-03-21T18:43:01.189165+00:00"
   }
 ]
