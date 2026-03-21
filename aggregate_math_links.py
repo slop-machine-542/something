@@ -16,6 +16,7 @@ REPO_PATH = "/root/.openclaw/workspace/something"
 DATA_FILE = os.path.join(REPO_PATH, "links.json")
 INDEX_FILE = os.path.join(REPO_PATH, "page_index.json")
 LINKS_PER_PAGE = 50
+LINKS_PER_RUN = 10  # Reduced from 50 to conserve sources
 
 def validate_url(url, timeout=10):
     """Check if a URL is still accessible."""
@@ -186,6 +187,55 @@ CURATED_LINKS = [
     {"title": "The Law of Large Numbers", "url": "https://www.youtube.com/watch?v=M8xeSh4vD2E", "description": "Why averages converge to expected values as sample size grows.", "high": "Probability", "low": "limit theorems"},
     {"title": "Complex Dynamics", "url": "https://www.youtube.com/watch?v=G9Cr5zB9Z7Y", "description": "The beautiful mathematics of iterating complex functions.", "high": "Analysis", "low": "complex dynamics"},
     {"title": "Introduction to Galois Theory", "url": "https://www.youtube.com/watch?v=zCU9tZ2VkWc", "description": "The beautiful connection between field extensions and groups.", "high": "Algebra", "low": "galois theory"},
+    
+    # Fresh Sources 2025
+    {"title": "Math Is Fun - Learn Math", "url": "https://www.mathsisfun.com/", "description": "Explains math in easy language, plus puzzles, games, worksheets and an illustrated dictionary.", "high": "General", "low": "education"},
+    {"title": "DeltaMath Practice", "url": "https://www.deltamath.com/", "description": "Free math practice for students. Create assignments and get immediate feedback.", "high": "General", "low": "practice"},
+    {"title": "IXL Math Practice", "url": "https://www.ixl.com/math", "description": "Interactive math practice with unlimited questions covering pre-K to calculus.", "high": "General", "low": "practice"},
+    {"title": "AoPS Online Community", "url": "https://artofproblemsolving.com/community", "description": "Math community with forums, contests, and educational resources for enthusiastic students.", "high": "General", "low": "competition"},
+    {"title": "Paul's Online Math Notes", "url": "https://tutorial.math.lamar.edu/", "description": "Complete set of free downloadable notes and tutorials for algebra through differential equations.", "high": "General", "low": "education"},
+    {"title": "MathOverflow Research", "url": "https://mathoverflow.net/questions", "description": "Research-level mathematics questions and answers from professional mathematicians.", "high": "General", "low": "research"},
+    {"title": "Plus Magazine", "url": "https://plus.maths.org/", "description": "Free online magazine introducing readers to the beauty and applications of mathematics.", "high": "General", "low": "articles"},
+    {"title": "Chalkdust Magazine", "url": "https://chalkdustmagazine.com/", "description": "A magazine for the mathematically curious featuring articles, puzzles, and interviews.", "high": "General", "low": "articles"},
+    {"title": "Cut-the-Knot", "url": "https://www.cut-the-knot.org/", "description": "Interactive mathematics miscellany and puzzles with hundreds of Java applets.", "high": "General", "low": "puzzles"},
+    {"title": "Project Euler", "url": "https://projecteuler.net/", "description": "Challenging mathematical and computational problems to solve with programming.", "high": "Applied Math", "low": "programming"},
+    {"title": "Mathematics Stack Exchange", "url": "https://math.stackexchange.com/questions", "description": "Q&A for people studying math at any level and professionals in related fields.", "high": "General", "low": "Q&A"},
+    {"title": "Terence Tao's Blog", "url": "https://terrytao.wordpress.com/", "description": "Mathematical insights from Fields Medalist Terence Tao.", "high": "General", "low": "research"},
+    {"title": "Tim Gowers's Blog", "url": "https://gowers.wordpress.com/", "description": "Mathematics discussions from Fields Medalist Timothy Gowers.", "high": "General", "low": "research"},
+    {"title": "Numberphile Podcast", "url": "https://www.numberphile.com/podcast", "description": "Interviews with mathematicians about their work and stories.", "high": "General", "low": "podcast"},
+    {"title": "Relatively Prime", "url": "https://relprime.com/", "description": "Mathematical stories from Samuel Hansen featuring great storytelling.", "high": "General", "low": "podcast"},
+    {"title": "My Favorite Theorem", "url": "https://kpknudson.com/my-favorite-theorem", "description": "Podcast where mathematicians share their favorite theorems and stories.", "high": "General", "low": "podcast"},
+    {"title": "MathsGee", "url": "https://mathsgee.com/", "description": "STEM community and Q&A platform with mathematics resources.", "high": "General", "low": "Q&A"},
+    {"title": "Underground Mathematics", "url": "https://undergroundmathematics.org/", "description": "Rich resources from Cambridge for advanced mathematics students.", "high": "General", "low": "education"},
+    {"title": "Brilliant Daily Problems", "url": "https://brilliant.org/daily-problems/", "description": "Daily challenges in math, science, and engineering with explanations.", "high": "General", "low": "puzzles"},
+    {"title": "Mathigon", "url": "https://mathigon.org/", "description": "Interactive mathematics books and activities with beautiful visualizations.", "high": "General", "low": "interactive"},
+    {"title": "Wolfram Demonstrations", "url": "https://demonstrations.wolfram.com/", "description": "Interactive demonstrations for mathematics, science, and art.", "high": "General", "low": "visualization"},
+    {"title": "GeoGebra Classroom", "url": "https://www.geogebra.org/classroom", "description": "Interactive digital activities for teaching and learning mathematics.", "high": "General", "low": "interactive"},
+    {"title": "MathWorks MATLAB", "url": "https://www.mathworks.com/products/matlab.html", "description": "Programming platform for engineers and scientists with powerful math tools.", "high": "Applied Math", "low": "programming"},
+    {"title": "SageMath", "url": "https://www.sagemath.org/", "description": "Open source mathematics software system for research and education.", "high": "Applied Math", "low": "software"},
+    {"title": "Mathics", "url": "https://mathics.org/", "description": "Free, open-source alternative to Mathematica for symbolic computation.", "high": "Applied Math", "low": "software"},
+    {"title": "CindyJS", "url": "https://cindyjs.org/", "description": "Interactive mathematical visualization framework for the web.", "high": "Geometry", "low": "visualization"},
+    {"title": "MathJax", "url": "https://www.mathjax.org/", "description": "Beautiful math in all browsers - display mathematics on the web.", "high": "General", "low": "tools"},
+    {"title": "LaTeX Project", "url": "https://www.latex-project.org/", "description": "Document preparation system used for mathematical and scientific writing.", "high": "General", "low": "typesetting"},
+    {"title": "Detexify", "url": "http://detexify.kirelabs.org/classify.html", "description": "Draw a symbol and get the LaTeX command for it.", "high": "General", "low": "tools"},
+    {"title": "Mathpix", "url": "https://mathpix.com/", "description": "Convert images of mathematical formulas to LaTeX.", "high": "General", "low": "tools"},
+    {"title": "zbMATH Open", "url": "https://zbmath.org/", "description": "Open access to the first three volumes of the mathematics review database.", "high": "General", "low": "research"},
+    {"title": "MathSciNet", "url": "https://mathscinet.ams.org/", "description": "Mathematical reviews and abstracts of mathematical research literature.", "high": "General", "low": "research"},
+    {"title": "Numdam", "url": "https://www.numdam.org/", "description": "Digital mathematics library with journals, seminars, and proceedings.", "high": "General", "low": "research"},
+    {"title": "EuDML", "url": "https://eudml.org/", "description": "European Digital Mathematics Library providing open access to mathematical literature.", "high": "General", "low": "research"},
+    {"title": "MathNet.Ru", "url": "https://www.mathnet.ru/", "description": "All-Russian mathematical portal with journals, seminars, and person databases.", "high": "General", "low": "research"},
+    {"title": "Mathematics Genealogy", "url": "https://www.mathgenealogy.org/", "description": "Database of mathematicians and their PhD advisors going back centuries.", "high": "General", "low": "history"},
+    {"title": "Biographies of Women Mathematicians", "url": "https://mathwomen.agnesscott.org/", "description": "Biographical essays on women mathematicians around the world.", "high": "General", "low": "history"},
+    {"title": "Mathematical Constants", "url": "http://www.davidhbailey.com/dhbpapers/", "description": "Research papers and resources on mathematical constants.", "high": "Number Theory", "low": "constants"},
+    {"title": "Inverse Symbolic Calculator", "url": "https://wayback.cecm.sfu.ca/projects/ISC/ISCmain.html", "description": "Find closed forms for decimal numbers.", "high": "Number Theory", "low": "tools"},
+    {"title": "WolframAlpha Math Examples", "url": "https://www.wolframalpha.com/examples/mathematics", "description": "Examples of mathematical computations and queries.", "high": "General", "low": "computation"},
+    {"title": "Google Colab", "url": "https://colab.research.google.com/", "description": "Free cloud-based Python environment with free GPU access for math computing.", "high": "Applied Math", "low": "programming"},
+    {"title": "Jupyter Notebook", "url": "https://jupyter.org/", "description": "Open-source web application for creating and sharing computational documents.", "high": "Applied Math", "low": "programming"},
+    {"title": "NumPy", "url": "https://numpy.org/", "description": "Fundamental package for scientific computing with Python.", "high": "Applied Math", "low": "programming"},
+    {"title": "SciPy", "url": "https://scipy.org/", "description": "Open-source software for mathematics, science, and engineering.", "high": "Applied Math", "low": "programming"},
+    {"title": "Pandas", "url": "https://pandas.pydata.org/", "description": "Data analysis and manipulation library for Python.", "high": "Applied Math", "low": "programming"},
+    {"title": "Matplotlib", "url": "https://matplotlib.org/", "description": "Comprehensive library for creating static, animated, and interactive visualizations.", "high": "Applied Math", "low": "visualization"},
+    {"title": "Plotly", "url": "https://plotly.com/python/", "description": "Interactive, open-source graphing library for Python.", "high": "Applied Math", "low": "visualization"},
 ]
 
 def load_links():
@@ -222,7 +272,7 @@ def deduplicate_links(links):
             unique.append(link)
     return unique
 
-def select_new_links(existing_urls, count=50):
+def select_new_links(existing_urls, count=LINKS_PER_RUN):
     """Select new links that haven't been added yet."""
     available = [l for l in CURATED_LINKS if l["url"] not in existing_urls]
     

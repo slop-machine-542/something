@@ -916,5 +916,293 @@
     "high_level_tag": "General",
     "low_level_tag": "organization",
     "added_at": "2026-03-19T18:43:01.121427+00:00"
+  },
+  {
+    "id": "202603211758232034",
+    "title": "Numberphile Podcast",
+    "url": "https://www.numberphile.com/podcast",
+    "description": "Interviews with mathematicians about their work and stories.",
+    "high_level_tag": "General",
+    "low_level_tag": "podcast",
+    "added_at": "2026-03-21T17:58:23.810816+00:00"
+  },
+  {
+    "id": "202603211758235897",
+    "title": "Cut-the-Knot",
+    "url": "https://www.cut-the-knot.org/",
+    "description": "Interactive mathematics miscellany and puzzles with hundreds of Java applets.",
+    "high_level_tag": "General",
+    "low_level_tag": "puzzles",
+    "added_at": "2026-03-21T17:58:23.810831+00:00"
+  },
+  {
+    "id": "202603211758235892",
+    "title": "Relatively Prime",
+    "url": "https://relprime.com/",
+    "description": "Mathematical stories from Samuel Hansen featuring great storytelling.",
+    "high_level_tag": "General",
+    "low_level_tag": "podcast",
+    "added_at": "2026-03-21T17:58:23.810849+00:00"
+  },
+  {
+    "id": "202603211758239828",
+    "title": "Mathematics Stack Exchange",
+    "url": "https://math.stackexchange.com/questions",
+    "description": "Q&A for people studying math at any level and professionals in related fields.",
+    "high_level_tag": "General",
+    "low_level_tag": "Q&A",
+    "added_at": "2026-03-21T17:58:23.810855+00:00"
+  },
+  {
+    "id": "202603211758235308",
+    "title": "Jupyter Notebook",
+    "url": "https://jupyter.org/",
+    "description": "Open-source web application for creating and sharing computational documents.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "programming",
+    "added_at": "2026-03-21T17:58:23.810860+00:00"
+  },
+  {
+    "id": "202603211758232012",
+    "title": "Mathematics Genealogy",
+    "url": "https://www.mathgenealogy.org/",
+    "description": "Database of mathematicians and their PhD advisors going back centuries.",
+    "high_level_tag": "General",
+    "low_level_tag": "history",
+    "added_at": "2026-03-21T17:58:23.810864+00:00"
+  },
+  {
+    "id": "202603211758235312",
+    "title": "Plus Magazine",
+    "url": "https://plus.maths.org/",
+    "description": "Free online magazine introducing readers to the beauty and applications of mathematics.",
+    "high_level_tag": "General",
+    "low_level_tag": "articles",
+    "added_at": "2026-03-21T17:58:23.810868+00:00"
+  },
+  {
+    "id": "202603211758235526",
+    "title": "LaTeX Project",
+    "url": "https://www.latex-project.org/",
+    "description": "Document preparation system used for mathematical and scientific writing.",
+    "high_level_tag": "General",
+    "low_level_tag": "typesetting",
+    "added_at": "2026-03-21T17:58:23.810895+00:00"
+  },
+  {
+    "id": "202603211758238540",
+    "title": "DeltaMath Practice",
+    "url": "https://www.deltamath.com/",
+    "description": "Free math practice for students. Create assignments and get immediate feedback.",
+    "high_level_tag": "General",
+    "low_level_tag": "practice",
+    "added_at": "2026-03-21T17:58:23.810899+00:00"
+  },
+  {
+    "id": "202603211758231366",
+    "title": "Underground Mathematics",
+    "url": "https://undergroundmathematics.org/",
+    "description": "Rich resources from Cambridge for advanced mathematics students.",
+    "high_level_tag": "General",
+    "low_level_tag": "education",
+    "added_at": "2026-03-21T17:58:23.810907+00:00"
+  },
+  {
+    "id": "202603211758237704",
+    "title": "Math Is Fun - Learn Math",
+    "url": "https://www.mathsisfun.com/",
+    "description": "Explains math in easy language, plus puzzles, games, worksheets and an illustrated dictionary.",
+    "high_level_tag": "General",
+    "low_level_tag": "education",
+    "added_at": "2026-03-21T17:58:23.810911+00:00"
+  },
+  {
+    "id": "202603211758234785",
+    "title": "MathSciNet",
+    "url": "https://mathscinet.ams.org/",
+    "description": "Mathematical reviews and abstracts of mathematical research literature.",
+    "high_level_tag": "General",
+    "low_level_tag": "research",
+    "added_at": "2026-03-21T17:58:23.810915+00:00"
+  },
+  {
+    "id": "202603211758239935",
+    "title": "Mathics",
+    "url": "https://mathics.org/",
+    "description": "Free, open-source alternative to Mathematica for symbolic computation.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "software",
+    "added_at": "2026-03-21T17:58:23.810919+00:00"
+  },
+  {
+    "id": "202603211758233584",
+    "title": "SciPy",
+    "url": "https://scipy.org/",
+    "description": "Open-source software for mathematics, science, and engineering.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "programming",
+    "added_at": "2026-03-21T17:58:23.810929+00:00"
+  },
+  {
+    "id": "202603211758231645",
+    "title": "GeoGebra Classroom",
+    "url": "https://www.geogebra.org/classroom",
+    "description": "Interactive digital activities for teaching and learning mathematics.",
+    "high_level_tag": "General",
+    "low_level_tag": "interactive",
+    "added_at": "2026-03-21T17:58:23.810933+00:00"
+  },
+  {
+    "id": "202603211758239365",
+    "title": "Plotly",
+    "url": "https://plotly.com/python/",
+    "description": "Interactive, open-source graphing library for Python.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "visualization",
+    "added_at": "2026-03-21T17:58:23.810938+00:00"
+  },
+  {
+    "id": "202603211758239045",
+    "title": "MathOverflow Research",
+    "url": "https://mathoverflow.net/questions",
+    "description": "Research-level mathematics questions and answers from professional mathematicians.",
+    "high_level_tag": "General",
+    "low_level_tag": "research",
+    "added_at": "2026-03-21T17:58:23.810945+00:00"
+  },
+  {
+    "id": "202603211758237229",
+    "title": "MathNet.Ru",
+    "url": "https://www.mathnet.ru/",
+    "description": "All-Russian mathematical portal with journals, seminars, and person databases.",
+    "high_level_tag": "General",
+    "low_level_tag": "research",
+    "added_at": "2026-03-21T17:58:23.810953+00:00"
+  },
+  {
+    "id": "202603211758233792",
+    "title": "Biographies of Women Mathematicians",
+    "url": "https://mathwomen.agnesscott.org/",
+    "description": "Biographical essays on women mathematicians around the world.",
+    "high_level_tag": "General",
+    "low_level_tag": "history",
+    "added_at": "2026-03-21T17:58:23.810967+00:00"
+  },
+  {
+    "id": "202603211758237378",
+    "title": "Chalkdust Magazine",
+    "url": "https://chalkdustmagazine.com/",
+    "description": "A magazine for the mathematically curious featuring articles, puzzles, and interviews.",
+    "high_level_tag": "General",
+    "low_level_tag": "articles",
+    "added_at": "2026-03-21T17:58:23.810971+00:00"
+  },
+  {
+    "id": "202603211758234869",
+    "title": "Wolfram Demonstrations",
+    "url": "https://demonstrations.wolfram.com/",
+    "description": "Interactive demonstrations for mathematics, science, and art.",
+    "high_level_tag": "General",
+    "low_level_tag": "visualization",
+    "added_at": "2026-03-21T17:58:23.810979+00:00"
+  },
+  {
+    "id": "202603211758238979",
+    "title": "SageMath",
+    "url": "https://www.sagemath.org/",
+    "description": "Open source mathematics software system for research and education.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "software",
+    "added_at": "2026-03-21T17:58:23.810984+00:00"
+  },
+  {
+    "id": "202603211758235647",
+    "title": "MathJax",
+    "url": "https://www.mathjax.org/",
+    "description": "Beautiful math in all browsers - display mathematics on the web.",
+    "high_level_tag": "General",
+    "low_level_tag": "tools",
+    "added_at": "2026-03-21T17:58:23.810988+00:00"
+  },
+  {
+    "id": "202603211758239482",
+    "title": "Project Euler",
+    "url": "https://projecteuler.net/",
+    "description": "Challenging mathematical and computational problems to solve with programming.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "programming",
+    "added_at": "2026-03-21T17:58:23.810992+00:00"
+  },
+  {
+    "id": "202603211758236628",
+    "title": "Mathpix",
+    "url": "https://mathpix.com/",
+    "description": "Convert images of mathematical formulas to LaTeX.",
+    "high_level_tag": "General",
+    "low_level_tag": "tools",
+    "added_at": "2026-03-21T17:58:23.810996+00:00"
+  },
+  {
+    "id": "202603211758233489",
+    "title": "Mathigon",
+    "url": "https://mathigon.org/",
+    "description": "Interactive mathematics books and activities with beautiful visualizations.",
+    "high_level_tag": "General",
+    "low_level_tag": "interactive",
+    "added_at": "2026-03-21T17:58:23.811021+00:00"
+  },
+  {
+    "id": "202603211758236913",
+    "title": "Matplotlib",
+    "url": "https://matplotlib.org/",
+    "description": "Comprehensive library for creating static, animated, and interactive visualizations.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "visualization",
+    "added_at": "2026-03-21T17:58:23.811027+00:00"
+  },
+  {
+    "id": "202603211758232142",
+    "title": "Numdam",
+    "url": "https://www.numdam.org/",
+    "description": "Digital mathematics library with journals, seminars, and proceedings.",
+    "high_level_tag": "General",
+    "low_level_tag": "research",
+    "added_at": "2026-03-21T17:58:23.811035+00:00"
+  },
+  {
+    "id": "202603211758234328",
+    "title": "AoPS Online Community",
+    "url": "https://artofproblemsolving.com/community",
+    "description": "Math community with forums, contests, and educational resources for enthusiastic students.",
+    "high_level_tag": "General",
+    "low_level_tag": "competition",
+    "added_at": "2026-03-21T17:58:23.811039+00:00"
+  },
+  {
+    "id": "202603211758239432",
+    "title": "NumPy",
+    "url": "https://numpy.org/",
+    "description": "Fundamental package for scientific computing with Python.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "programming",
+    "added_at": "2026-03-21T17:58:23.811043+00:00"
+  },
+  {
+    "id": "202603211758237851",
+    "title": "Pandas",
+    "url": "https://pandas.pydata.org/",
+    "description": "Data analysis and manipulation library for Python.",
+    "high_level_tag": "Applied Math",
+    "low_level_tag": "programming",
+    "added_at": "2026-03-21T17:58:23.811061+00:00"
+  },
+  {
+    "id": "202603211758239500",
+    "title": "Brilliant Daily Problems",
+    "url": "https://brilliant.org/daily-problems/",
+    "description": "Daily challenges in math, science, and engineering with explanations.",
+    "high_level_tag": "General",
+    "low_level_tag": "puzzles",
+    "added_at": "2026-03-21T17:58:23.811069+00:00"
   }
 ]
