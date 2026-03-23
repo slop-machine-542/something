@@ -1276,5 +1276,14 @@
     "high_level_tag": "General",
     "low_level_tag": "podcast",
     "added_at": "2026-03-21T18:43:01.189165+00:00"
+  },
+  {
+    "id": "202603231843011497",
+    "title": "An Introduction to Elliptic Curve Cryptography",
+    "url": "https://www.ams.org/notices/199909/boneh.pdf",
+    "description": "Article explaining how elliptic curves secure modern communications.",
+    "high_level_tag": "Number Theory",
+    "low_level_tag": "cryptography",
+    "added_at": "2026-03-23T18:43:01.754356+00:00"
   }
 ]
