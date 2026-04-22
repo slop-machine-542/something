@@ -1161,15 +1161,6 @@
     "added_at": "2026-04-22T08:43:01.233780+00:00"
   },
   {
-    "id": "202604220843012622",
-    "title": "Visual Complex Analysis - Tristan Needham",
-    "url": "https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469",
-    "description": "A geometric approach to complex analysis using beautiful visualizations and intuition.",
-    "high_level_tag": "Analysis",
-    "low_level_tag": "complex analysis",
-    "added_at": "2026-04-22T08:43:01.233784+00:00"
-  },
-  {
     "id": "202604220843011867",
     "title": "Topology - James Munkres",
     "url": "https://www.amazon.com/Topology-2nd-James-Munkres/dp/0131816292",
@@ -1258,5 +1249,23 @@
     "high_level_tag": "Analysis",
     "low_level_tag": "real analysis",
     "added_at": "2026-04-22T08:43:01.233916+00:00"
+  },
+  {
+    "id": "202604221044201709",
+    "title": "Visual Complex Analysis - Tristan Needham",
+    "url": "https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469",
+    "description": "A geometric approach to complex analysis using beautiful visualizations and intuition.",
+    "high_level_tag": "Analysis",
+    "low_level_tag": "complex analysis",
+    "added_at": "2026-04-22T10:44:20.511959+00:00"
+  },
+  {
+    "id": "202604221044208885",
+    "title": "Love and Math - Edward Frenkel",
+    "url": "https://www.amazon.com/Love-Math-Heart-Hidden-Reality/dp/0465050743",
+    "description": "A mathematician's journey through the Langlands program and the beauty of modern mathematics.",
+    "high_level_tag": "General",
+    "low_level_tag": "autobiography",
+    "added_at": "2026-04-22T10:44:20.511970+00:00"
   }
 ]
