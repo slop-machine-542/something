@@ -1267,5 +1267,14 @@
     "high_level_tag": "General",
     "low_level_tag": "autobiography",
     "added_at": "2026-04-22T10:44:20.511970+00:00"
+  },
+  {
+    "id": "202606090244156232",
+    "title": "Encyclopedia of Mathematics",
+    "url": "https://encyclopediaofmath.org/",
+    "description": "Open-access encyclopedia with over 8,000 articles on mathematical topics.",
+    "high_level_tag": "General",
+    "low_level_tag": "reference",
+    "added_at": "2026-06-09T02:44:15.525489+00:00"
   }
 ]
